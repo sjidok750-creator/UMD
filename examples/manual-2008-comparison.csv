@@ -1,0 +1,15 @@
+﻿Item,HandbookValue,CalculatedValue,RelativeDifference,Unit,Comparison,Source
+Ag,3141592.654,3141592.653589793,-1.3057299685925727E-10,mm2,Matches_printed_rounding,PDF847_body509-129
+Ast,48136.5,48136.499999999942,0,mm2,Matches_printed_rounding,PDF847_body509-129
+phiPn_cap,43426.575,43426.575098609581,2.2707198343852042E-09,kN,Matches_printed_rounding,PDF846_body509-128
+transverse LC1,7677.9679999999998,7676.2114773455442,-0.00022877441719681979,kNm,Difference_not_exact_reproduction,PDF846_body509-128
+transverse LC2,9019.5799999999999,9048.8186078026629,0.0032416817415736876,kNm,Difference_not_exact_reproduction,PDF846_body509-128
+transverse LC3,14298.33,14298.951548689774,4.3470019909674917E-05,kNm,Difference_not_exact_reproduction,PDF846_body509-128
+transverse LC4,10555.01,10586.95731631882,0.003026744296672268,kNm,Difference_not_exact_reproduction,PDF846_body509-128
+longitudinal LC3,12651.690000000001,12702.059419612531,0.0039812404202546059,kNm,Difference_not_exact_reproduction,PDF846_body509-128
+combined LC3,12570.030000000001,12620.281590498582,0.0039977303553437871,kNm,Difference_not_exact_reproduction,PDF846_body509-128
+combined LC4,9979.8060000000005,9910.8361154528866,-0.006910944415864817,kNm,Difference_not_exact_reproduction,PDF846_body509-128
+balanced_e,545.084,513.08732255098664,-0.058700452497254196,mm,Unresolved_difference,PDF846_body509-128
+transverse_LC2_e_from_printed_Mu_Pu,222.005,220.90062023286507,-0.0049745715958421366,mm,Source_internal_inconsistency,PDF846_body509-128
+transverse_LC4_e_from_printed_Mu_Pu,284.102,282.63926374228799,-0.0051486306246065761,mm,Source_internal_inconsistency,PDF846_body509-128
+d_from_weighted_cover_vs_figure,1852.526,1852.6315789473683,5.6991884253232428E-05,mm,Source_table_figure_inconsistency,PDF847_body509-129

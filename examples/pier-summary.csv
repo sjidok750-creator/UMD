@@ -1,0 +1,4 @@
+﻿Division,Combination,P_kN,Mx_kNm,My_kNm,Demand_Mu_kNm,Nominal_Mn_kNm,Nominal_Mn_over_Mu,NominalRemark,Reference_phiMn_kNm,Reference_phiMn_over_Mu,ReferenceRemark,Note
+"Pmax","EX-Pmax",160000,25000,30000,39051.248379533274,62528.69113286888,1.601195703788054,"O.K. (공칭)",,,"미적용","Mn 공칭내력. φ 및 축력상한 미적용. 동일 P, 합성 모멘트 방향 고정."
+"M(X-dir)max","EX-Mxmax",90000,65000,20000,68007.352543677218,53459.240799997147,0.78608031044383542,"N.G. (공칭)",,,"미적용","Mn 공칭내력. φ 및 축력상한 미적용. 동일 P, 합성 모멘트 방향 고정."
+"M(Y-dir)max","EX-Mymax",70000,15000,380000,380295.93739612837,167046.90770520287,0.43925504134744803,"N.G. (공칭)",,,"미적용","Mn 공칭내력. φ 및 축력상한 미적용. 동일 P, 합성 모멘트 방향 고정."
