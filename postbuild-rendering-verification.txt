@@ -1,0 +1,159 @@
+PASS RENDER plot fills its panel: PMx
+PASS RENDER plot fills its panel: Section
+PASS RENDER plot fills its panel: Strain
+PASS RENDER plot fills its panel: Surface
+PASS RENDER dashboard charts have usable viewport
+PASS RENDER initial balanced strain diagram
+PASS RENDER PNG exact size
+PASS RENDER PNG left interaction region visible
+PASS RENDER PNG right filled surface visible
+PASS RENDER clearing results clears all dashboard plots
+PASS RENDER Section at 96 DPI
+PASS RENDER Section at 144 DPI
+PASS RENDER Strain at 96 DPI
+PASS RENDER Strain at 144 DPI
+PASS RENDER PMx at 96 DPI
+PASS RENDER PMx at 144 DPI
+PASS RENDER PMy at 96 DPI
+PASS RENDER PMy at 144 DPI
+PASS RENDER Slice at 96 DPI
+PASS RENDER Slice at 144 DPI
+PASS RENDER Surface at 96 DPI
+PASS RENDER Surface at 144 DPI
+PASS RENDER camera reset
+PASS RENDER rendering does not mutate engineering results
+PASS RENDER total: 24
+PASS INDEPENDENT Circular P0 phiP_kip actual=1426.1976583317 published=1426.2
+PASS INDEPENDENT Circular cap phiP_kip actual=1212.2680095819 published=1212.3
+PASS INDEPENDENT Circular control0 phiP_kip actual=984.4824868823 published=984.5
+PASS INDEPENDENT Circular control0 phiM_kipft actual=208.15911681904 published=208.16
+PASS INDEPENDENT circular requested extreme-bar strain 0
+PASS INDEPENDENT Circular control1 phiP_kip actual=642.20209100716 published=642.2
+PASS INDEPENDENT Circular control1 phiM_kipft actual=281.42876235214 published=281.43
+PASS INDEPENDENT circular requested extreme-bar strain 1
+PASS INDEPENDENT Circular control2 phiP_kip actual=389.19961115885 published=389.2
+PASS INDEPENDENT Circular control2 phiM_kipft actual=305.80009542359 published=305.8
+PASS INDEPENDENT circular requested extreme-bar strain 2
+PASS INDEPENDENT Circular control3 phiP_kip actual=26.552835936907 published=26.6
+PASS INDEPENDENT Circular control3 phiM_kipft actual=295.31389228758 published=295.31
+PASS INDEPENDENT circular requested extreme-bar strain 3
+PASS INDEPENDENT Circular B c_in actual=10.277244897959 published=10.28
+PASS INDEPENDENT Circular B Pn_kip actual=518.93281487846 published=519
+PASS INDEPENDENT Circular B Mn_kipft actual=407.73346056478 published=408
+PASS INDEPENDENT Circular pure bending phiM_kipft actual=288.09579690523 published=288.1
+PASS INDEPENDENT Circular pure tension phiP_kip actual=-548.63999999997 published=-548.6
+PASS INDEPENDENT spiral cap applied to graph
+PASS INDEPENDENT standalone professional chart 300 dpi dimensions
+PASS INDEPENDENT export is EMF+ dual vector format
+PASS INDEPENDENT vector EMF retains text and lines without embedding a raster screenshot
+PASS INDEPENDENT EMF frame avoids system-DPI oversize whitespace
+PASS INDEPENDENT replayed vector chart fills its intended page
+PASS INDEPENDENT Biaxial c12.5 alpha43.9 P_kip actual=425.36912536365 published=425.37
+PASS INDEPENDENT Biaxial c12.5 alpha43.9 Mx_kipft actual=321.39243234044 published=321.28
+PASS INDEPENDENT Biaxial c12.5 alpha43.9 My_kipft actual=200.7652295535 published=200.64
+PASS INDEPENDENT biaxial exact target axial equilibrium
+PASS INDEPENDENT biaxial true moment direction (not neutral-axis angle)
+PASS INDEPENDENT neutral axis is solved independently of moment direction
+PASS INDEPENDENT standard rebar nominal area D10
+PASS INDEPENDENT standard rebar nominal area D13
+PASS INDEPENDENT standard rebar nominal area D16
+PASS INDEPENDENT standard rebar nominal area D19
+PASS INDEPENDENT standard rebar nominal area D22
+PASS INDEPENDENT standard rebar nominal area D25
+PASS INDEPENDENT standard rebar nominal area D29
+PASS INDEPENDENT standard rebar nominal area D32
+PASS INDEPENDENT standard rebar nominal area D35
+PASS INDEPENDENT standard rebar nominal area D38
+PASS INDEPENDENT standard-section generator bar count
+PASS INDEPENDENT standard-section D25 uses 12 x 506.7 (not pi*25^2/4)
+PASS INDEPENDENT handbook retains 95 x D25 nominal area
+PASS INDEPENDENT US example area remains independent of Korean catalog
+PASS INDEPENDENT total: 45
+PASS INSET circular case=0 {Width=810, Height=520} dpi=96
+PASS INSET circular case=0 {Width=810, Height=520} dpi=192
+PASS INSET circular case=0 {Width=1000, Height=650} dpi=96
+PASS INSET circular case=0 {Width=1000, Height=650} dpi=192
+PASS INSET circular case=1 {Width=810, Height=520} dpi=96
+PASS INSET circular case=1 {Width=810, Height=520} dpi=192
+PASS INSET circular case=1 {Width=1000, Height=650} dpi=96
+PASS INSET circular case=1 {Width=1000, Height=650} dpi=192
+PASS INSET circular case=2 {Width=810, Height=520} dpi=96
+PASS INSET circular case=2 {Width=810, Height=520} dpi=192
+PASS INSET circular case=2 {Width=1000, Height=650} dpi=96
+PASS INSET circular case=2 {Width=1000, Height=650} dpi=192
+PASS INSET circular whole report
+PASS INSET circular rendering retains calculation data
+PASS INSET rectangular case=0 {Width=810, Height=520} dpi=96
+PASS INSET rectangular case=0 {Width=810, Height=520} dpi=192
+PASS INSET rectangular case=0 {Width=1000, Height=650} dpi=96
+PASS INSET rectangular case=0 {Width=1000, Height=650} dpi=192
+PASS INSET rectangular case=1 {Width=810, Height=520} dpi=96
+PASS INSET rectangular case=1 {Width=810, Height=520} dpi=192
+PASS INSET rectangular case=1 {Width=1000, Height=650} dpi=96
+PASS INSET rectangular case=1 {Width=1000, Height=650} dpi=192
+PASS INSET rectangular case=2 {Width=810, Height=520} dpi=96
+PASS INSET rectangular case=2 {Width=810, Height=520} dpi=192
+PASS INSET rectangular case=2 {Width=1000, Height=650} dpi=96
+PASS INSET rectangular case=2 {Width=1000, Height=650} dpi=192
+PASS INSET rectangular whole report
+PASS INSET rectangular rendering retains calculation data
+PASS INSET biaxial case=0 {Width=810, Height=520} dpi=96
+PASS INSET biaxial case=0 {Width=810, Height=520} dpi=192
+PASS INSET biaxial case=0 {Width=1000, Height=650} dpi=96
+PASS INSET biaxial case=0 {Width=1000, Height=650} dpi=192
+PASS INSET biaxial case=1 {Width=810, Height=520} dpi=96
+PASS INSET biaxial case=1 {Width=810, Height=520} dpi=192
+PASS INSET biaxial case=1 {Width=1000, Height=650} dpi=96
+PASS INSET biaxial case=1 {Width=1000, Height=650} dpi=192
+PASS INSET biaxial case=2 {Width=810, Height=520} dpi=96
+PASS INSET biaxial case=2 {Width=810, Height=520} dpi=192
+PASS INSET biaxial case=2 {Width=1000, Height=650} dpi=96
+PASS INSET biaxial case=2 {Width=1000, Height=650} dpi=192
+PASS INSET biaxial whole report
+PASS INSET biaxial rendering retains calculation data
+PASS INSET manual case=0 {Width=810, Height=520} dpi=96
+PASS INSET manual case=0 {Width=810, Height=520} dpi=192
+PASS INSET manual case=0 {Width=1000, Height=650} dpi=96
+PASS INSET manual case=0 {Width=1000, Height=650} dpi=192
+PASS INSET manual case=1 {Width=810, Height=520} dpi=96
+PASS INSET manual case=1 {Width=810, Height=520} dpi=192
+PASS INSET manual case=1 {Width=1000, Height=650} dpi=96
+PASS INSET manual case=1 {Width=1000, Height=650} dpi=192
+PASS INSET manual case=2 {Width=810, Height=520} dpi=96
+PASS INSET manual case=2 {Width=810, Height=520} dpi=192
+PASS INSET manual case=2 {Width=1000, Height=650} dpi=96
+PASS INSET manual case=2 {Width=1000, Height=650} dpi=192
+PASS INSET manual whole report
+PASS INSET manual rendering retains calculation data
+PASS INSET nominal case=0 {Width=810, Height=520} dpi=96
+PASS INSET nominal case=0 {Width=810, Height=520} dpi=192
+PASS INSET nominal case=0 {Width=1000, Height=650} dpi=96
+PASS INSET nominal case=0 {Width=1000, Height=650} dpi=192
+PASS INSET nominal case=1 {Width=810, Height=520} dpi=96
+PASS INSET nominal case=1 {Width=810, Height=520} dpi=192
+PASS INSET nominal case=1 {Width=1000, Height=650} dpi=96
+PASS INSET nominal case=1 {Width=1000, Height=650} dpi=192
+PASS INSET nominal case=2 {Width=810, Height=520} dpi=96
+PASS INSET nominal case=2 {Width=810, Height=520} dpi=192
+PASS INSET nominal case=2 {Width=1000, Height=650} dpi=96
+PASS INSET nominal case=2 {Width=1000, Height=650} dpi=192
+PASS INSET nominal whole report
+PASS INSET nominal rendering retains calculation data
+PASS INSET pier case=0 {Width=810, Height=520} dpi=96
+PASS INSET pier case=0 {Width=810, Height=520} dpi=192
+PASS INSET pier case=0 {Width=1000, Height=650} dpi=96
+PASS INSET pier case=0 {Width=1000, Height=650} dpi=192
+PASS INSET pier case=1 {Width=810, Height=520} dpi=96
+PASS INSET pier case=1 {Width=810, Height=520} dpi=192
+PASS INSET pier case=1 {Width=1000, Height=650} dpi=96
+PASS INSET pier case=1 {Width=1000, Height=650} dpi=192
+PASS INSET pier case=2 {Width=810, Height=520} dpi=96
+PASS INSET pier case=2 {Width=810, Height=520} dpi=192
+PASS INSET pier case=2 {Width=1000, Height=650} dpi=96
+PASS INSET pier case=2 {Width=1000, Height=650} dpi=192
+PASS INSET pier whole report
+PASS INSET pier rendering retains calculation data
+PASS INSET total: 84
+PASS ANNOTATION nonzero uniform moment is preserved
+PASS ANNOTATION opposite-direction uniform endpoint is omitted
+PASS ANNOTATION total: 2

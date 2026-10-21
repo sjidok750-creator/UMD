@@ -1,0 +1,1 @@
+PASS legacy v0.7 reads v0.8 project: 14 bars / As 7093.8 / 3 load cases; optional recipe ignored

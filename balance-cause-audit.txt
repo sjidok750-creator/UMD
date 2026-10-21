@@ -1,0 +1,8 @@
+Actual_extreme_bar_d1900 c= 1266.6666666666667 As_each= 506.7 eb= 513.0873225509877 min_steel_strain= -0.0015 difference_from_printed= -0.05870045249725231
+Printed_weighted_depth_d1852.632 c= 1235.0877192982455 As_each= 506.7 eb= 542.5716559444559 min_steel_strain= -0.0016150568181818189 difference_from_printed= -0.004609095213846115
+Printed_figure_depth_d1852.526 c= 1235.0173333333335 As_each= 506.7 eb= 542.6392875143362 min_steel_strain= -0.0016153198389658229 difference_from_printed= -0.004485019713775795
+Wrong_area_pi25_squared_not_used_in_manual c= 1266.6666666666667 As_each= 490.8738521234052 eb= 509.3403882421522 min_steel_strain= -0.0015 difference_from_printed= -0.06557450183430036
+D25 area shortfall relative to nominal percent= -3.123376332463945
+Difference attribution, NOT proof of the original program algorithm:
+Depth-definition contribution in mm= 29.484333393468205
+Residual at the printed weighted depth in mm= 2.5123440555440766

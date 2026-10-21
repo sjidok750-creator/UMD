@@ -1,0 +1,60 @@
+PASS REPORT three governing combination diagrams
+PASS REPORT max P and max ABS Mx/My preserve combination IDs
+PASS REPORT simultaneous P Mx My values (b) P 최대 조합
+PASS REPORT detailed actual equilibrium samples 149
+PASS REPORT every curve point satisfies moment direction equilibrium
+PASS REPORT capacity at exact load axial force
+PASS REPORT directional balanced steel yield
+PASS REPORT directional pure bending equilibrium
+PASS REPORT paths ordered by axial force
+PASS REPORT adaptive midpoint chord criterion reached
+PASS REPORT capacity stored from material integration
+PASS REPORT independent quarter-level curve samples <0.2% of moment scale (sampled intervals)
+PASS REPORT simultaneous P Mx My values (c) |Mx| 최대 조합
+PASS REPORT detailed actual equilibrium samples 149
+PASS REPORT every curve point satisfies moment direction equilibrium
+PASS REPORT capacity at exact load axial force
+PASS REPORT directional balanced steel yield
+PASS REPORT directional pure bending equilibrium
+PASS REPORT paths ordered by axial force
+PASS REPORT adaptive midpoint chord criterion reached
+PASS REPORT capacity stored from material integration
+PASS REPORT independent quarter-level curve samples <0.2% of moment scale (sampled intervals)
+PASS REPORT simultaneous P Mx My values (d) |My| 최대 조합
+PASS REPORT detailed actual equilibrium samples 149
+PASS REPORT every curve point satisfies moment direction equilibrium
+PASS REPORT capacity at exact load axial force
+PASS REPORT directional balanced steel yield
+PASS REPORT directional pure bending equilibrium
+PASS REPORT paths ordered by axial force
+PASS REPORT adaptive midpoint chord criterion reached
+PASS REPORT capacity stored from material integration
+PASS REPORT independent quarter-level curve samples <0.2% of moment scale (sampled intervals)
+PASS REPORT summary nominal OK NG follows actual combinations
+PASS REPORT table capacity equals plotted C
+PASS REPORT table capacity equals plotted C
+PASS REPORT table capacity equals plotted C
+PASS REPORT table Mu is actual biaxial resultant
+PASS REPORT capacity over demand ratio, not its reciprocal
+PASS REPORT direction zero matches independently selected My=0 axis root
+PASS REPORT neutral axis orientation distinct from moment direction
+PASS REPORT direction root invariant under doubled search subdivisions
+PASS REPORT directional translation invariance
+PASS REPORT refinement limit suppresses OK
+PASS REPORT angular uncertainty suppresses OK
+PASS REPORT zero demand ratio is undefined
+PASS REPORT no invented load cases
+PASS REPORT concave pier directional report curves
+PASS REPORT pier curve all finite
+PASS REPORT CSV explicitly nominal capacity/demand
+PASS REPORT HTML contains report summary table
+PASS REPORT native report table three rows
+PASS REPORT native grid ratio same as engine
+PASS REPORT 300dpi report PNG correct dimensions
+PASS REPORT separate table PNG dimensions
+PASS REPORT input invalidation clears report table
+REPORT points: 151, 151, 157
+TABLE Pmax Mu=39051.248380 Mn=62687.4569057022 ratio=1.6052612786268 O.K. (공칭)
+TABLE M(X-dir)max Mu=68007.352544 Mn=53605.441195411 ratio=0.788230083813118 미확정
+TABLE M(Y-dir)max Mu=380295.937396 Mn=167418.647209161 ratio=0.440232541939496 N.G. (공칭)
+PASS REPORT total: 55

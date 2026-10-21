@@ -1,0 +1,2 @@
+rectangle median_ms=57.039 gc0=24
+hollow median_ms=246.712 gc0=27

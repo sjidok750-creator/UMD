@@ -1,0 +1,840 @@
+PASS rectangle valid
+PASS uniform compression closed form [14517.1098 vs 14517.1098]
+PASS uniform tension closed form [-2432.16 vs -2432.16]
+PASS symmetric compression Mx [0 vs 0]
+PASS symmetric compression My [0 vs 0]
+PASS balanced-depth force from independent rectangle formula [5817.20733243 vs 5817.20733243]
+PASS balanced-depth moment from rectangle formula [1786.06109589 vs 1786.06109589]
+PASS balanced depth [444 vs 444]
+PASS extreme tensile steel yield at balanced state [-0.002 vs -0.002]
+PASS opposite symmetry P [2384.29964348 vs 2384.29964348]
+PASS opposite symmetry Mx [1466.75500976 vs 1466.75500976]
+PASS translation P [4846.63249957 vs 4846.63249957]
+PASS translation Mx about centroid [1106.69528135 vs 1106.69528135]
+PASS translation My about centroid [-796.031765598 vs -796.031765598]
+PASS rotation P [4846.63249957 vs 4846.63249957]
+PASS rotation Mx covariance [1319.65964483 vs 1319.65964483]
+PASS rotation My covariance [-341.964090819 vs -341.964090819]
+PASS nonconvex disconnected compression area [12 vs 12]
+PASS nonconvex disconnected first moment [18 vs 18]
+PASS half rebar disk area [157.079632679 vs 157.079632679]
+PASS half rebar disk first moment [666.666666667 vs 666.666666667]
+PASS partial disk independent strip integral area [97.9921912354 vs 97.9921913482]
+PASS partial disk independent strip integral moment [578.723115526 vs 578.723116655]
+PASS fixed-P solution exists
+PASS fixed-P equilibrium [-999.999999986 vs -1000]
+PASS fixed-P solution exists
+PASS fixed-P equilibrium [1.6899779439E-08 vs 0]
+PASS fixed-P solution exists
+PASS fixed-P equilibrium [1500 vs 1500]
+PASS fixed-P solution exists
+PASS fixed-P equilibrium [5999.99999999 vs 6000]
+PASS fixed-P solution exists
+PASS fixed-P equilibrium [-999.999999994 vs -1000]
+PASS fixed-P solution exists
+PASS fixed-P equilibrium [-9.82778146863E-10 vs 0]
+PASS fixed-P solution exists
+PASS fixed-P equilibrium [1500 vs 1500]
+PASS fixed-P solution exists
+PASS fixed-P equilibrium [6000.00000001 vs 6000]
+PASS fixed-P solution exists
+PASS fixed-P equilibrium [-999.999999999 vs -1000]
+PASS fixed-P solution exists
+PASS fixed-P equilibrium [2.53203324974E-09 vs 0]
+PASS fixed-P solution exists
+PASS fixed-P equilibrium [1500 vs 1500]
+PASS fixed-P solution exists
+PASS fixed-P equilibrium [5999.99999998 vs 6000]
+PASS fixed-P solution exists
+PASS fixed-P equilibrium [-1000 vs -1000]
+PASS fixed-P solution exists
+PASS fixed-P equilibrium [-1.53919681907E-08 vs 0]
+PASS fixed-P solution exists
+PASS fixed-P equilibrium [1500 vs 1500]
+PASS fixed-P solution exists
+PASS fixed-P equilibrium [6000 vs 6000]
+PASS fixed-P solution exists
+PASS fixed-P equilibrium [-999.999999999 vs -1000]
+PASS fixed-P solution exists
+PASS fixed-P equilibrium [2.53017060459E-09 vs 0]
+PASS fixed-P solution exists
+PASS fixed-P equilibrium [1500 vs 1500]
+PASS fixed-P solution exists
+PASS fixed-P equilibrium [5999.99999998 vs 6000]
+PASS hollow polygon area [538880.826533 vs 538880.826533]
+PASS hollow biaxial root
+PASS contour orientation invariant [699.417237395 vs 699.417237395]
+PASS reject NaN
+PASS reject outside bar
+PASS reject overlapping bars
+PASS reject outside hole
+PASS reject self intersection
+PASS reject duplicate load ID
+PASS reject wrong units
+PASS reject unsupported model
+PASS JSON roundtrip [506.7 vs 506.7]
+PASS surface and refined slice resolution
+PASS all surface points finite
+PASS example interior demand
+PASS example exterior demand
+PASS zero moment has no fabricated utilization
+PASS out of axial range
+PASS P-Mx path enforces My=0
+PASS P-My path enforces Mx=0
+PASS balanced marker depth [444 vs 444]
+PASS balanced marker axial force [5817.20733243 vs 5817.20733243]
+PASS balanced marker moment [1786.06109589 vs 1786.06109589]
+PASS balanced marker simultaneous tensile yield [-0.002 vs -0.002]
+PASS balanced strain classification
+PASS before-yield strain classification
+PASS after-yield strain classification
+PASS uniform tension is not balanced strain
+PASS equal-P display rings prepared
+PASS pure bending markers satisfy both equations
+PASS compression endpoint zero moment capacity
+PASS asymmetric axis intersections
+PASS asymmetric two-equation equilibrium
+PASS asymmetric balanced markers satisfy moment and strain constraints
+PASS fixed neutral-axis angle would give wrong opposite moment
+PASS triangle independent 1M-cell force integral [3908.4968471 vs 3908.44611346]
+PASS triangle independent 1M-cell Mx integral [354.234715947 vs 354.200233302]
+PASS triangle independent 1M-cell My integral [-243.47262452 vs -243.476213883]
+PASS ray intersection independent diamond [0.5 vs 0.5]
+PASS reject self-crossing capacity boundary
+PASS HTML escapes project name
+PASS CSV formula quoting
+PASS live HTTP health
+PASS live HTTP example project [506.7 vs 506.7]
+PASS HTTP vs library compression [14517.1098 vs 14517.1098]
+PASS HTTP vs library demand [0.420995119374 vs 0.420995119374]
+PASS HTTP invalid project 400
+PASS HTTP rejects non-loopback Host
+PASS HTTP rejects browser origin
+PASS HTTP rejects oversize body
+Engine example elapsed: 0.912 s
+PASS total: 113
+PASS UI form input contract
+PASS UI result grid populated
+PASS UI form project save roundtrip
+PASS UI unchanged save preserves results
+PASS UI input change invalidates all results
+PASS UI input change clears stale section view
+PASS UI open restores data and requires calculation
+PASS UI coordinate and material row order protected
+PASS UI selected bar uses catalog D25 area
+PASS UI unselected custom area preserved
+PASS UI total: 10
+PASS RENDER plot fills its panel: PMx
+PASS RENDER plot fills its panel: Section
+PASS RENDER plot fills its panel: Strain
+PASS RENDER plot fills its panel: Surface
+PASS RENDER dashboard charts have usable viewport
+PASS RENDER initial balanced strain diagram
+PASS RENDER PNG exact size
+PASS RENDER PNG left interaction region visible
+PASS RENDER PNG right filled surface visible
+PASS RENDER clearing results clears all dashboard plots
+PASS RENDER Section at 96 DPI
+PASS RENDER Section at 144 DPI
+PASS RENDER Strain at 96 DPI
+PASS RENDER Strain at 144 DPI
+PASS RENDER PMx at 96 DPI
+PASS RENDER PMx at 144 DPI
+PASS RENDER PMy at 96 DPI
+PASS RENDER PMy at 144 DPI
+PASS RENDER Slice at 96 DPI
+PASS RENDER Slice at 144 DPI
+PASS RENDER Surface at 96 DPI
+PASS RENDER Surface at 144 DPI
+FULL frame 900x750 / 30 samples: median_ms=131.187 p95_ms=169.947
+DRAG frame 900x750 / 30 samples: median_ms=32.269 p95_ms=53.204
+PASS RENDER camera reset
+PASS RENDER rendering does not mutate engineering results
+PASS RENDER total: 24
+Test artifacts: %USERPROFILE%\AppData\Local\Temp\PMStudio-verify-15102a67ad19453990fd53e6f72be077
+PASS REPORT three governing combination diagrams
+PASS REPORT max P and max ABS Mx/My preserve combination IDs
+PASS REPORT simultaneous P Mx My values (b) P 최대 조합
+PASS REPORT detailed actual equilibrium samples 161
+PASS REPORT every curve point satisfies moment direction equilibrium
+PASS REPORT capacity at exact load axial force
+PASS REPORT directional balanced steel yield
+PASS REPORT directional pure bending equilibrium
+PASS REPORT paths ordered by axial force
+PASS REPORT adaptive midpoint chord criterion reached
+PASS REPORT capacity stored from material integration
+PASS REPORT independent quarter-level curve samples <0.2% of moment scale (sampled intervals)
+PASS REPORT simultaneous P Mx My values (c) |Mx| 최대 조합
+PASS REPORT detailed actual equilibrium samples 165
+PASS REPORT every curve point satisfies moment direction equilibrium
+PASS REPORT capacity at exact load axial force
+PASS REPORT directional balanced steel yield
+PASS REPORT directional pure bending equilibrium
+PASS REPORT paths ordered by axial force
+PASS REPORT adaptive midpoint chord criterion reached
+PASS REPORT capacity stored from material integration
+PASS REPORT independent quarter-level curve samples <0.2% of moment scale (sampled intervals)
+PASS REPORT simultaneous P Mx My values (d) |My| 최대 조합
+PASS REPORT detailed actual equilibrium samples 165
+PASS REPORT every curve point satisfies moment direction equilibrium
+PASS REPORT capacity at exact load axial force
+PASS REPORT directional balanced steel yield
+PASS REPORT directional pure bending equilibrium
+PASS REPORT paths ordered by axial force
+PASS REPORT adaptive midpoint chord criterion reached
+PASS REPORT capacity stored from material integration
+PASS REPORT independent quarter-level curve samples <0.2% of moment scale (sampled intervals)
+PASS REPORT summary nominal OK NG follows actual combinations
+PASS REPORT table capacity equals plotted C
+PASS REPORT table capacity equals plotted C
+PASS REPORT table capacity equals plotted C
+PASS REPORT table Mu is actual biaxial resultant
+PASS REPORT capacity over demand ratio, not its reciprocal
+PASS REPORT direction zero matches independently selected My=0 axis root
+PASS REPORT neutral axis orientation distinct from moment direction
+PASS REPORT direction root invariant under doubled search subdivisions
+PASS REPORT directional translation invariance
+PASS REPORT refinement limit suppresses OK
+PASS REPORT angular uncertainty suppresses OK
+PASS REPORT zero demand ratio is undefined
+PASS REPORT no invented load cases
+PASS REPORT concave pier directional report curves
+PASS REPORT pier curve all finite
+PASS REPORT CSV explicitly nominal capacity/demand
+PASS REPORT HTML contains report summary table
+PASS REPORT native report table three rows
+PASS REPORT native grid ratio same as engine
+PASS REPORT 300dpi report PNG correct dimensions
+PASS REPORT separate table PNG dimensions
+PASS REPORT input invalidation clears report table
+REPORT points: 155, 155, 161
+TABLE Pmax Mu=39051.248380 Mn=62528.6911328689 ratio=1.60119570378805 O.K. (공칭)
+TABLE M(X-dir)max Mu=68007.352544 Mn=53459.2407999971 ratio=0.786080310443835 N.G. (공칭)
+TABLE M(Y-dir)max Mu=380295.937396 Mn=167046.907705203 ratio=0.439255041347448 N.G. (공칭)
+PASS REPORT total: 55
+PASS REFERENCE Grade60 reduced pure compression (before cap) actual=997.100000 published=997.1
+PASS REFERENCE Grade60 axial cap actual=797.680000 published=797.7
+PASS REFERENCE Grade60 pure tension actual=432.000000 published=432
+PASS REFERENCE Grade60 control0 phiPn kip actual=622.310000 published=622.3
+PASS REFERENCE Grade60 control0 phiMn kip-ft actual=169.863417 published=169.86
+PASS REFERENCE Grade60 control0 requested steel strain actual=0.000000 published=0
+PASS REFERENCE Grade60 control1 phiPn kip actual=421.910000 published=421.9
+PASS REFERENCE Grade60 control1 phiMn kip-ft actual=220.050340 published=220.05
+PASS REFERENCE Grade60 control1 requested steel strain actual=-0.001034 published=-0.00103448275862069
+PASS REFERENCE Grade60 control2 phiPn kip actual=270.891406 published=270.9
+PASS REFERENCE Grade60 control2 phiMn kip-ft actual=250.774370 published=250.77
+PASS REFERENCE Grade60 control2 requested steel strain actual=-0.002069 published=-0.00206896551724138
+PASS REFERENCE Grade60 control3 phiPn kip actual=171.641538 published=171.6
+PASS REFERENCE Grade60 control3 phiMn kip-ft actual=286.750743 published=286.75
+PASS REFERENCE Grade60 control3 requested steel strain actual=-0.005069 published=-0.00506896551724138
+PASS REFERENCE Grade60 pure bending phiMn kip-ft actual=213.912320 published=213.91
+PASS REFERENCE Grade60 transition phi from independent linear relation actual=0.775000 published=0.775
+PASS REFERENCE Grade60 both capacity curves generated
+PASS REFERENCE Grade60 curve clipped at axial cap
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=-1921.631738 published=-1921.63173779243
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=0.000000 published=0
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=-598.820984 published=-598.82098390764
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=204.824566 published=204.824565641527
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=723.989770 published=723.989769954527
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=384.157712 published=384.157711857258
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=1296.270857 published=1296.27085663461
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=334.800462 published=334.80046178357
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=2160.647196 published=2160.64719580296
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=279.219040 published=279.219039529635
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=3116.010518 published=3116.01051804708
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=194.602345 published=194.602345309575
+PASS REFERENCE Grade60 reduced capacity solved at exact DEMAND P (not phi times nominal at demand P) actual=3000.000000 published=3000
+PASS REFERENCE Grade60 curve clipped at axial cap
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=-1921.631738 published=-1921.63173779243
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=0.000000 published=0
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=-598.820984 published=-598.82098390764
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=204.824566 published=204.824565641527
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=723.989770 published=723.989769954527
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=384.157712 published=384.157711857258
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=1239.329276 published=1239.32927559267
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=338.365975 published=338.365974995753
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=2160.647196 published=2160.64719580296
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=279.219040 published=279.219039529635
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=3116.010518 published=3116.01051804708
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=194.602345 published=194.602345309575
+PASS REFERENCE Grade60 reduced capacity solved at exact DEMAND P (not phi times nominal at demand P) actual=1200.000000 published=1200
+PASS REFERENCE Grade60 curve clipped at axial cap
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=-1921.631738 published=-1921.63173779243
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=0.000000 published=0
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=-598.820984 published=-598.820983918478
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=20.420759 published=20.4207592391655
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=213.437741 published=213.437741477948
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=27.399213 published=27.3992132790952
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=963.275878 published=963.275877560162
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=25.877913 published=25.877913114635
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=1187.934353 published=1187.93435293793
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=24.601355 published=24.6013554863869
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=2024.166721 published=2024.16672120068
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=22.717740 published=22.7177404965886
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=2615.582111 published=2615.5821111625
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=20.131293 published=20.1312933279059
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=3548.257418 published=3548.25741800102
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=11.928110 published=11.9281098814307
+PASS REFERENCE Grade60 reduced capacity solved at exact DEMAND P (not phi times nominal at demand P) actual=1000.000000 published=1000
+PASS REFERENCE Grade60 table matches blue C point actual=207.281693 published=207.281692660443
+PASS REFERENCE Grade60 table matches blue C point actual=340.795755 published=340.795755412275
+PASS REFERENCE Grade60 table matches blue C point actual=256.553243 published=256.553242978114
+PASS REFERENCE Grade60 UI table explicitly reference factor ratio
+MODEL Grade60 pure bending ExactDisk_phiMn=213.779018 vs CenterLumped_phiMn=213.912320
+PASS REFERENCE Grade80 reduced pure compression (before cap) actual=1101.100000 published=1101.1
+PASS REFERENCE Grade80 axial cap actual=880.880000 published=880.9
+PASS REFERENCE Grade80 pure tension actual=576.000000 published=576
+PASS REFERENCE Grade80 control0 phiPn kip actual=650.621111 published=650.6
+PASS REFERENCE Grade80 control0 phiMn kip-ft actual=182.839343 published=182.84
+PASS REFERENCE Grade80 control0 requested steel strain actual=0.000000 published=0
+PASS REFERENCE Grade80 control1 phiPn kip actual=377.012246 published=377
+PASS REFERENCE Grade80 control1 phiMn kip-ft actual=235.451031 published=235.45
+PASS REFERENCE Grade80 control1 requested steel strain actual=-0.001379 published=-0.00137931034482759
+PASS REFERENCE Grade80 control2 phiPn kip actual=175.427143 published=175.4
+PASS REFERENCE Grade80 control2 phiMn kip-ft actual=264.580653 published=264.58
+PASS REFERENCE Grade80 control2 requested steel strain actual=-0.002759 published=-0.00275862068965517
+PASS REFERENCE Grade80 control3 phiPn kip actual=66.958478 published=67
+PASS REFERENCE Grade80 control3 phiMn kip-ft actual=306.959620 published=306.96
+PASS REFERENCE Grade80 control3 requested steel strain actual=-0.005759 published=-0.00575862068965517
+PASS REFERENCE Grade80 pure bending phiMn kip-ft actual=278.959162 published=278.96
+PASS REFERENCE Grade80 transition phi from independent linear relation actual=0.775000 published=0.775
+PASS REFERENCE Grade80 both capacity curves generated
+PASS REFERENCE Grade80 curve clipped at axial cap
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=-2562.175650 published=-2562.17565038991
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=0.000000 published=0
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=-883.187451 published=-883.187451369335
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=254.732129 published=254.732129050261
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=459.134994 published=459.134993791887
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=401.422444 published=401.422443516079
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=1471.016463 published=1471.01646264889
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=328.410194 published=328.41019381043
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=2472.731644 published=2472.73164419391
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=277.689873 published=277.689872694858
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=3579.890529 published=3579.89052905507
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=179.485602 published=179.48560236154
+PASS REFERENCE Grade80 reduced capacity solved at exact DEMAND P (not phi times nominal at demand P) actual=3000.000000 published=3000
+PASS REFERENCE Grade80 curve clipped at axial cap
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=-2562.175650 published=-2562.17565038991
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=0.000000 published=0
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=-883.187451 published=-883.187451369335
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=254.732129 published=254.732129050261
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=459.134994 published=459.134993791887
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=401.422444 published=401.422443516079
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=1365.572759 published=1365.57275933133
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=333.022086 published=333.02208619688
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=2472.731644 published=2472.73164419391
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=277.689873 published=277.689872694858
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=3579.890529 published=3579.89052905507
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=179.485602 published=179.48560236154
+PASS REFERENCE Grade80 reduced capacity solved at exact DEMAND P (not phi times nominal at demand P) actual=1200.000000 published=1200
+PASS REFERENCE Grade80 curve clipped at axial cap
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=-2562.175650 published=-2562.17565038991
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=0.000000 published=0
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=-1282.403395 published=-1282.40339542911
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=19.955773 published=19.95577327456
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=-369.337477 published=-369.337476588491
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=28.516694 published=28.5166942570068
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=530.558592 published=530.558592220522
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=26.374806 published=26.3748057631241
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=917.437020 published=917.437020217981
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=24.924427 published=24.9244268505172
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=1892.791276 published=1892.79127593491
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=23.405968 published=23.4059680791704
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=2578.175348 published=2578.17534751034
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=21.007369 published=21.0073690957026
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=3052.672012 published=3052.67201245821
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=18.163546 published=18.1635459907259
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=3698.514695 published=3698.51469529638
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=12.017468 published=12.0174676354152
+PASS REFERENCE Grade80 reduced capacity solved at exact DEMAND P (not phi times nominal at demand P) actual=1000.000000 published=1000
+PASS REFERENCE Grade80 table matches blue C point actual=239.131993 published=239.131992644775
+PASS REFERENCE Grade80 table matches blue C point actual=340.221056 published=340.221055723292
+PASS REFERENCE Grade80 table matches blue C point actual=249.520974 published=249.520973971797
+PASS REFERENCE Grade80 UI table explicitly reference factor ratio
+MODEL Grade80 pure bending ExactDisk_phiMn=278.959162 vs CenterLumped_phiMn=278.959162
+PASS REFERENCE opposite bending capacities of asymmetric section are NOT mirrored
+PASS REFERENCE multiple design intersections cannot produce automatic OK
+PASS REFERENCE total: 140
+PASS MANUAL handbook PDF847 gross circle area actual=3141592.653589793 reference=3141592.6540000001
+PASS MANUAL handbook PDF847 steel area actual=48136.499999999942 reference=48136.5
+PASS MANUAL handbook PDF846 maximum reduced compression actual=43426.575098609581 reference=43426.574999999997
+PASS MANUAL independent closed-form cap actual=43426.575098609581 reference=43426.575098609785
+PASS MANUAL handbook printed reinforcement ratio actual=0.015322323836286041 reference=0.01532
+PASS MANUAL analytic circular compression area vs independent strips actual=979921.9123544154 reference=979921.91245526704
+PASS MANUAL analytic circular first moment vs independent strips actual=274947322.69641149 reference=274947322.76603037
+PASS MANUAL analytic circle translation P actual=34849.504087798057 reference=34849.50408779805
+PASS MANUAL analytic circle translation Mx actual=20114.94400924426 reference=20114.944009244278
+PASS MANUAL published axial coordinate equilibrium transverse LC1 actual=43426.574999996898 reference=43426.574999999997
+COMPARE transverse LC1 phiM_reference=7677.9679999999998 phiM_calculated=7676.2114773455442 relative=-0.00022877441719681979
+PASS MANUAL published axial coordinate equilibrium transverse LC2 actual=40774.899999992951 reference=40774.900000000001
+COMPARE transverse LC2 phiM_reference=9019.5799999999999 phiM_calculated=9048.8186078026629 relative=0.0032416817415736876
+PASS MANUAL published axial coordinate equilibrium transverse LC3 actual=20513.733999993925 reference=20513.734
+COMPARE transverse LC3 phiM_reference=14298.33 phiM_calculated=14298.951548689774 relative=4.3470019909674917E-05
+PASS MANUAL published axial coordinate equilibrium transverse LC4 actual=37260.495999949882 reference=37260.495999999999
+COMPARE transverse LC4 phiM_reference=10555.01 phiM_calculated=10586.95731631882 relative=0.003026744296672268
+PASS MANUAL published axial coordinate equilibrium longitudinal LC3 actual=10490.370999956998 reference=10490.370999999999
+COMPARE longitudinal LC3 phiM_reference=12651.690000000001 phiM_calculated=12702.059419612531 relative=0.0039812404202546059
+PASS MANUAL published axial coordinate equilibrium combined LC3 actual=10230.336000013755 reference=10230.335999999999
+COMPARE combined LC3 phiM_reference=12570.030000000001 phiM_calculated=12620.281590498582 relative=0.0039977303553437871
+PASS MANUAL published axial coordinate equilibrium combined LC4 actual=38890.250999992801 reference=38890.250999999997
+COMPARE combined LC4 phiM_reference=9979.8060000000005 phiM_calculated=9910.8361154528866 relative=-0.006910944415864817
+COMPARE balanced_e_reference=545.084 calculated=513.08732255098664 relative=-0.058700452497254196
+COMPARE max_abs_moment_difference=0.006910944415864817
+PASS MANUAL balanced eccentricity mismatch is retained, not hidden as passing reference
+PASS MANUAL weighted cover from actual two rings actual=147.36842105263159 reference=147.36799999999999
+PASS MANUAL engine balanced state uses actual extreme bar yield actual=-0.0015000000000000007 reference=-0.0015
+PASS MANUAL total: 19
+PASS LAYOUT window dimensions fixed without maximize
+PASS LAYOUT 1120 by 910 DIP client target
+PASS LAYOUT input pane 300 DIP
+PASS LAYOUT duplicate bottom table hidden in report view
+PASS LAYOUT toolbar items stay inside toolbar
+PASS LAYOUT toolbar items do not overlap 1
+PASS LAYOUT toolbar items do not overlap 2
+PASS LAYOUT toolbar items do not overlap 3
+PASS LAYOUT toolbar items do not overlap 4
+PASS LAYOUT toolbar items do not overlap 5
+PASS LAYOUT tab headers do not overlap
+PASS LAYOUT tab headers do not overlap
+PASS LAYOUT table and graph do not overlap
+PASS LAYOUT detail graph retains readable viewport
+PASS LAYOUT two-line headers have measured height
+PASS LAYOUT row heights fit Gothic text
+PASS LAYOUT summary columns retain minimum readable widths
+PASS LAYOUT case selector changes detailed curve
+PASS LAYOUT detailed diagram renders at 96 DPI
+PASS LAYOUT detailed diagram renders at 120 DPI
+PASS LAYOUT detailed diagram renders at 144 DPI
+PASS LAYOUT detailed diagram renders at 192 DPI
+PASS LAYOUT manual discrepancy visible in native table
+PASS LAYOUT total: 23
+PASS INDEPENDENT Circular P0 phiP_kip actual=1426.1976583317 published=1426.2
+PASS INDEPENDENT Circular cap phiP_kip actual=1212.2680095819 published=1212.3
+PASS INDEPENDENT Circular control0 phiP_kip actual=984.4824868823 published=984.5
+PASS INDEPENDENT Circular control0 phiM_kipft actual=208.15911681904 published=208.16
+PASS INDEPENDENT circular requested extreme-bar strain 0
+PASS INDEPENDENT Circular control1 phiP_kip actual=642.20209100716 published=642.2
+PASS INDEPENDENT Circular control1 phiM_kipft actual=281.42876235214 published=281.43
+PASS INDEPENDENT circular requested extreme-bar strain 1
+PASS INDEPENDENT Circular control2 phiP_kip actual=389.19961115885 published=389.2
+PASS INDEPENDENT Circular control2 phiM_kipft actual=305.80009542359 published=305.8
+PASS INDEPENDENT circular requested extreme-bar strain 2
+PASS INDEPENDENT Circular control3 phiP_kip actual=26.552835936907 published=26.6
+PASS INDEPENDENT Circular control3 phiM_kipft actual=295.31389228758 published=295.31
+PASS INDEPENDENT circular requested extreme-bar strain 3
+PASS INDEPENDENT Circular B c_in actual=10.277244897959 published=10.28
+PASS INDEPENDENT Circular B Pn_kip actual=518.93281487846 published=519
+PASS INDEPENDENT Circular B Mn_kipft actual=407.73346056478 published=408
+PASS INDEPENDENT Circular pure bending phiM_kipft actual=288.09579690523 published=288.1
+PASS INDEPENDENT Circular pure tension phiP_kip actual=-548.63999999997 published=-548.6
+PASS INDEPENDENT spiral cap applied to graph
+PASS INDEPENDENT standalone professional chart 300 dpi dimensions
+PASS INDEPENDENT export is EMF+ dual vector format
+PASS INDEPENDENT vector EMF retains text and lines without embedding a raster screenshot
+PASS INDEPENDENT EMF frame avoids system-DPI oversize whitespace
+PASS INDEPENDENT replayed vector chart fills its intended page
+PASS INDEPENDENT Biaxial c12.5 alpha43.9 P_kip actual=425.36912536365 published=425.37
+PASS INDEPENDENT Biaxial c12.5 alpha43.9 Mx_kipft actual=321.39243234044 published=321.28
+PASS INDEPENDENT Biaxial c12.5 alpha43.9 My_kipft actual=200.7652295535 published=200.64
+PASS INDEPENDENT biaxial exact target axial equilibrium
+PASS INDEPENDENT biaxial true moment direction (not neutral-axis angle)
+PASS INDEPENDENT neutral axis is solved independently of moment direction
+PASS INDEPENDENT standard rebar nominal area D10
+PASS INDEPENDENT standard rebar nominal area D13
+PASS INDEPENDENT standard rebar nominal area D16
+PASS INDEPENDENT standard rebar nominal area D19
+PASS INDEPENDENT standard rebar nominal area D22
+PASS INDEPENDENT standard rebar nominal area D25
+PASS INDEPENDENT standard rebar nominal area D29
+PASS INDEPENDENT standard rebar nominal area D32
+PASS INDEPENDENT standard rebar nominal area D35
+PASS INDEPENDENT standard rebar nominal area D38
+PASS INDEPENDENT standard-section generator bar count
+PASS INDEPENDENT standard-section D25 uses 12 x 506.7 (not pi*25^2/4)
+PASS INDEPENDENT handbook retains 95 x D25 nominal area
+PASS INDEPENDENT US example area remains independent of Korean catalog
+PASS INDEPENDENT total: 45
+PASS INSET circular case=0 {Width=810, Height=520} dpi=96
+PASS INSET circular case=0 {Width=810, Height=520} dpi=192
+PASS INSET circular case=0 {Width=1000, Height=650} dpi=96
+PASS INSET circular case=0 {Width=1000, Height=650} dpi=192
+PASS INSET circular case=1 {Width=810, Height=520} dpi=96
+PASS INSET circular case=1 {Width=810, Height=520} dpi=192
+PASS INSET circular case=1 {Width=1000, Height=650} dpi=96
+PASS INSET circular case=1 {Width=1000, Height=650} dpi=192
+PASS INSET circular case=2 {Width=810, Height=520} dpi=96
+PASS INSET circular case=2 {Width=810, Height=520} dpi=192
+PASS INSET circular case=2 {Width=1000, Height=650} dpi=96
+PASS INSET circular case=2 {Width=1000, Height=650} dpi=192
+PASS INSET circular whole report
+PASS INSET circular rendering retains calculation data
+PASS INSET rectangular case=0 {Width=810, Height=520} dpi=96
+PASS INSET rectangular case=0 {Width=810, Height=520} dpi=192
+PASS INSET rectangular case=0 {Width=1000, Height=650} dpi=96
+PASS INSET rectangular case=0 {Width=1000, Height=650} dpi=192
+PASS INSET rectangular case=1 {Width=810, Height=520} dpi=96
+PASS INSET rectangular case=1 {Width=810, Height=520} dpi=192
+PASS INSET rectangular case=1 {Width=1000, Height=650} dpi=96
+PASS INSET rectangular case=1 {Width=1000, Height=650} dpi=192
+PASS INSET rectangular case=2 {Width=810, Height=520} dpi=96
+PASS INSET rectangular case=2 {Width=810, Height=520} dpi=192
+PASS INSET rectangular case=2 {Width=1000, Height=650} dpi=96
+PASS INSET rectangular case=2 {Width=1000, Height=650} dpi=192
+PASS INSET rectangular whole report
+PASS INSET rectangular rendering retains calculation data
+PASS INSET biaxial case=0 {Width=810, Height=520} dpi=96
+PASS INSET biaxial case=0 {Width=810, Height=520} dpi=192
+PASS INSET biaxial case=0 {Width=1000, Height=650} dpi=96
+PASS INSET biaxial case=0 {Width=1000, Height=650} dpi=192
+PASS INSET biaxial case=1 {Width=810, Height=520} dpi=96
+PASS INSET biaxial case=1 {Width=810, Height=520} dpi=192
+PASS INSET biaxial case=1 {Width=1000, Height=650} dpi=96
+PASS INSET biaxial case=1 {Width=1000, Height=650} dpi=192
+PASS INSET biaxial case=2 {Width=810, Height=520} dpi=96
+PASS INSET biaxial case=2 {Width=810, Height=520} dpi=192
+PASS INSET biaxial case=2 {Width=1000, Height=650} dpi=96
+PASS INSET biaxial case=2 {Width=1000, Height=650} dpi=192
+PASS INSET biaxial whole report
+PASS INSET biaxial rendering retains calculation data
+PASS INSET manual case=0 {Width=810, Height=520} dpi=96
+PASS INSET manual case=0 {Width=810, Height=520} dpi=192
+PASS INSET manual case=0 {Width=1000, Height=650} dpi=96
+PASS INSET manual case=0 {Width=1000, Height=650} dpi=192
+PASS INSET manual case=1 {Width=810, Height=520} dpi=96
+PASS INSET manual case=1 {Width=810, Height=520} dpi=192
+PASS INSET manual case=1 {Width=1000, Height=650} dpi=96
+PASS INSET manual case=1 {Width=1000, Height=650} dpi=192
+PASS INSET manual case=2 {Width=810, Height=520} dpi=96
+PASS INSET manual case=2 {Width=810, Height=520} dpi=192
+PASS INSET manual case=2 {Width=1000, Height=650} dpi=96
+PASS INSET manual case=2 {Width=1000, Height=650} dpi=192
+PASS INSET manual whole report
+PASS INSET manual rendering retains calculation data
+PASS INSET nominal case=0 {Width=810, Height=520} dpi=96
+PASS INSET nominal case=0 {Width=810, Height=520} dpi=192
+PASS INSET nominal case=0 {Width=1000, Height=650} dpi=96
+PASS INSET nominal case=0 {Width=1000, Height=650} dpi=192
+PASS INSET nominal case=1 {Width=810, Height=520} dpi=96
+PASS INSET nominal case=1 {Width=810, Height=520} dpi=192
+PASS INSET nominal case=1 {Width=1000, Height=650} dpi=96
+PASS INSET nominal case=1 {Width=1000, Height=650} dpi=192
+PASS INSET nominal case=2 {Width=810, Height=520} dpi=96
+PASS INSET nominal case=2 {Width=810, Height=520} dpi=192
+PASS INSET nominal case=2 {Width=1000, Height=650} dpi=96
+PASS INSET nominal case=2 {Width=1000, Height=650} dpi=192
+PASS INSET nominal whole report
+PASS INSET nominal rendering retains calculation data
+PASS INSET pier case=0 {Width=810, Height=520} dpi=96
+PASS INSET pier case=0 {Width=810, Height=520} dpi=192
+PASS INSET pier case=0 {Width=1000, Height=650} dpi=96
+PASS INSET pier case=0 {Width=1000, Height=650} dpi=192
+PASS INSET pier case=1 {Width=810, Height=520} dpi=96
+PASS INSET pier case=1 {Width=810, Height=520} dpi=192
+PASS INSET pier case=1 {Width=1000, Height=650} dpi=96
+PASS INSET pier case=1 {Width=1000, Height=650} dpi=192
+PASS INSET pier case=2 {Width=810, Height=520} dpi=96
+PASS INSET pier case=2 {Width=810, Height=520} dpi=192
+PASS INSET pier case=2 {Width=1000, Height=650} dpi=96
+PASS INSET pier case=2 {Width=1000, Height=650} dpi=192
+PASS INSET pier whole report
+PASS INSET pier rendering retains calculation data
+PASS INSET total: 84
+PASS ADDITIONAL E702 uniform compression closed form actual=668.45599999996489 expected=668.45600000000002
+PASS ADDITIONAL E702 printed compression cap actual=347.59711999998177 expected=347.60000000000002
+PASS ADDITIONAL E702 Z0.9 force couple gives 2.765 (source prints 2.82) actual=2.7649999999998456 expected=2.765000000000001
+PASS ADDITIONAL source printed Z0.9 equation evaluates to 2.765 actual=2.7649999999999864 expected=2.7650000000000001
+PASS ADDITIONAL E702 Z-5 rounded force replay actual=-43.72999999999999 expected=-43.729999999999997
+PASS ADDITIONAL E702 Z-5 rounded moment-arm replay actual=52.379566666666669 expected=52.380000000000003
+PASS ADDITIONAL wall original concrete area actual=7575.9999999999991 expected=7576
+PASS ADDITIONAL wall original hand-table steel area actual=43.879999999999939 expected=43.880000000000003
+PASS ADDITIONAL negative_My control0 phiPn_kip within original integer rounding actual=15461.035020858804 expected=15461
+PASS ADDITIONAL negative_My control0 phiMn_kipft within original integer rounding actual=52236.950702225491 expected=52237
+PASS ADDITIONAL negative_My control0 actual extreme bar strain actual=0 expected=0
+PASS ADDITIONAL negative_My control0 orthogonal equilibrium actual=2.2561289370059968E-13 expected=0
+PASS ADDITIONAL negative_My control1 phiPn_kip within original integer rounding actual=12519.602270837895 expected=12520
+PASS ADDITIONAL negative_My control1 phiMn_kipft within original integer rounding actual=85349.183682236457 expected=85349
+PASS ADDITIONAL negative_My control1 actual extreme bar strain actual=-0.0010344827586206897 expected=-0.0010344827586206897
+PASS ADDITIONAL negative_My control1 orthogonal equilibrium actual=-3.7252902984619144E-14 expected=0
+PASS ADDITIONAL negative_My control2 phiPn_kip within original integer rounding actual=10657.909519468427 expected=10658
+PASS ADDITIONAL negative_My control2 phiMn_kipft within original integer rounding actual=97424.455267836704 expected=97424
+PASS ADDITIONAL negative_My control2 actual extreme bar strain actual=-0.0020689655172413802 expected=-0.0020689655172413794
+PASS ADDITIONAL negative_My control2 orthogonal equilibrium actual=-3.2037496566772462E-13 expected=0
+PASS ADDITIONAL negative_My control3 phiPn_kip within original integer rounding actual=11151.079953507589 expected=11151
+PASS ADDITIONAL negative_My control3 phiMn_kipft within original integer rounding actual=138233.69925653111 expected=138234
+PASS ADDITIONAL negative_My control3 actual extreme bar strain actual=-0.005000000000000001 expected=-0.0050000000000000001
+PASS ADDITIONAL negative_My control3 orthogonal equilibrium actual=-5.7369470596313478E-13 expected=0
+PASS ADDITIONAL positive_My control0 phiPn_kip within original integer rounding actual=11614.048909101748 expected=11614
+PASS ADDITIONAL positive_My control0 phiMn_kipft within original integer rounding actual=77723.023763366116 expected=77723
+PASS ADDITIONAL positive_My control0 actual extreme bar strain actual=0 expected=0
+PASS ADDITIONAL positive_My control0 orthogonal equilibrium actual=1.2814998626708985E-12 expected=0
+PASS ADDITIONAL positive_My control1 phiPn_kip within original integer rounding actual=8417.6754270960264 expected=8418
+PASS ADDITIONAL positive_My control1 phiMn_kipft within original integer rounding actual=95118.910549260429 expected=95119
+PASS ADDITIONAL positive_My control1 actual extreme bar strain actual=-0.0010344827586206897 expected=-0.0010344827586206897
+PASS ADDITIONAL positive_My control1 orthogonal equilibrium actual=9.4622373580932615E-13 expected=0
+PASS ADDITIONAL positive_My control2 phiPn_kip within original integer rounding actual=6299.7420522120601 expected=6300
+PASS ADDITIONAL positive_My control2 phiMn_kipft within original integer rounding actual=98452.493948374613 expected=98452
+PASS ADDITIONAL positive_My control2 actual extreme bar strain actual=-0.0020689655172413802 expected=-0.0020689655172413794
+PASS ADDITIONAL positive_My control2 orthogonal equilibrium actual=4.5448541641235351E-13 expected=0
+PASS ADDITIONAL positive_My control3 phiPn_kip within original integer rounding actual=5105.3673143170518 expected=5105
+PASS ADDITIONAL positive_My control3 phiMn_kipft within original integer rounding actual=116488.51972903195 expected=116489
+PASS ADDITIONAL positive_My control3 actual extreme bar strain actual=-0.005000000000000001 expected=-0.0050000000000000001
+PASS ADDITIONAL positive_My control3 orthogonal equilibrium actual=-1.7136335372924805E-13 expected=0
+PASS ADDITIONAL negative_My exact pure bending axial equilibrium actual=-1.2127310037612916E-07 expected=0
+PASS ADDITIONAL negative_My fixed moment direction and fixed normal agree actual=-41286.482987934221 expected=-41286.482987611023
+PASS ADDITIONAL positive_My exact pure bending axial equilibrium actual=1.7900019884109496E-08 expected=0
+PASS ADDITIONAL positive_My fixed moment direction and fixed normal agree actual=72914.861838416924 expected=72914.861838416924
+PASS ADDITIONAL uniform_compression phiPn_kip within original integer rounding actual=18357.305199999068 expected=18357
+PASS ADDITIONAL uniform_compression phiMn_kipft within original integer rounding actual=2605.1965045058669 expected=2605
+PASS ADDITIONAL uniform_tension phiPn_magnitude_kip within original integer rounding actual=2369.5199999998795 expected=2370
+PASS ADDITIONAL uniform_tension phiMn_kipft within original integer rounding actual=3823.8817951423493 expected=3824
+PASS ADDITIONAL asymmetric uniform end states retain nonzero centroid moments
+PASS ADDITIONAL e702 independent-check grid exported: 72 finite/uniform states
+PASS ADDITIONAL e702 solved P at psi0 actual=-421.69140912291749 expected=-421.69140912667325
+PASS ADDITIONAL e702 solved moment direction 0 actual=1.8626451492309569E-15 expected=0
+PASS ADDITIONAL e702 solved P at psi37 actual=-421.69140912617348 expected=-421.69140912667325
+PASS ADDITIONAL e702 solved moment direction 37 actual=-6.5326400289222875E-08 expected=0
+PASS ADDITIONAL e702 solved P at psi123 actual=-421.69140912987444 expected=-421.69140912667325
+PASS ADDITIONAL e702 solved moment direction 123 actual=3.6532298963720677E-08 expected=0
+PASS ADDITIONAL e702 solved P at psi217 actual=-421.69140912617291 expected=-421.69140912667325
+PASS ADDITIONAL e702 solved moment direction 217 actual=-6.5326439369073341E-08 expected=0
+PASS ADDITIONAL e702 solved P at psi0 actual=-1.2445962056517602E-09 expected=0
+PASS ADDITIONAL e702 solved moment direction 0 actual=-8.1490725278854369E-16 expected=0
+PASS ADDITIONAL e702 solved P at psi37 actual=-1.5432015061378479E-09 expected=0
+PASS ADDITIONAL e702 solved moment direction 37 actual=-6.5238666024924896E-08 expected=0
+PASS ADDITIONAL e702 solved P at psi123 actual=-3.5372795537114143E-10 expected=0
+PASS ADDITIONAL e702 solved moment direction 123 actual=3.2133691263425135E-08 expected=0
+PASS ADDITIONAL e702 solved P at psi217 actual=-1.5432015061378479E-09 expected=0
+PASS ADDITIONAL e702 solved moment direction 217 actual=-6.5238666024924896E-08 expected=0
+PASS ADDITIONAL e702 solved P at psi0 actual=743.36010701200246 expected=743.36010701260409
+PASS ADDITIONAL e702 solved moment direction 0 actual=7.4505805969238278E-15 expected=0
+PASS ADDITIONAL e702 solved P at psi37 actual=743.36010701176906 expected=743.36010701260409
+PASS ADDITIONAL e702 solved moment direction 37 actual=5.9542138330925809E-08 expected=0
+PASS ADDITIONAL e702 solved P at psi123 actual=743.36010701253076 expected=743.36010701260409
+PASS ADDITIONAL e702 solved moment direction 123 actual=-9.1433442150901101E-08 expected=0
+PASS ADDITIONAL e702 solved P at psi217 actual=743.36010701176917 expected=743.36010701260409
+PASS ADDITIONAL e702 solved moment direction 217 actual=5.9542294650327676E-08 expected=0
+PASS ADDITIONAL e702 solved P at psi0 actual=1784.064256832047 expected=1784.0642568302499
+PASS ADDITIONAL e702 solved moment direction 0 actual=0 expected=0
+PASS ADDITIONAL e702 solved P at psi37 actual=1784.0642568318026 expected=1784.0642568302499
+PASS ADDITIONAL e702 solved moment direction 37 actual=-3.3833337909072725E-08 expected=0
+PASS ADDITIONAL e702 solved P at psi123 actual=1784.0642568299334 expected=1784.0642568302499
+PASS ADDITIONAL e702 solved moment direction 123 actual=-4.4926359521468839E-08 expected=0
+PASS ADDITIONAL e702 solved P at psi217 actual=1784.064256831803 expected=1784.0642568302499
+PASS ADDITIONAL e702 solved moment direction 217 actual=-3.3833195800525573E-08 expected=0
+PASS ADDITIONAL wall independent-check grid exported: 72 finite/uniform states
+PASS ADDITIONAL wall solved P at psi0 actual=-5855.6389342404327 expected=-5855.6389343286237
+PASS ADDITIONAL wall solved moment direction 0 actual=6.7414820194244382E-08 expected=0
+PASS ADDITIONAL wall solved P at psi37 actual=-5855.6389343201517 expected=-5855.6389343286237
+PASS ADDITIONAL wall solved moment direction 37 actual=8.0044628703035414E-09 expected=0
+PASS ADDITIONAL wall solved P at psi123 actual=-5855.6389344196223 expected=-5855.6389343286237
+PASS ADDITIONAL wall solved moment direction 123 actual=6.7292603489477187E-08 expected=0
+PASS ADDITIONAL wall solved P at psi217 actual=-5855.6389343625833 expected=-5855.6389343286237
+PASS ADDITIONAL wall solved moment direction 217 actual=-7.0082933234516531E-08 expected=0
+PASS ADDITIONAL wall solved P at psi0 actual=3.5285018384456635E-08 expected=0
+PASS ADDITIONAL wall solved moment direction 0 actual=-9.946799278259277E-08 expected=0
+PASS ADDITIONAL wall solved P at psi37 actual=2.9416754841804503E-08 expected=0
+PASS ADDITIONAL wall solved moment direction 37 actual=-2.5120243662968278E-09 expected=0
+PASS ADDITIONAL wall solved P at psi123 actual=4.9992464482784273E-08 expected=0
+PASS ADDITIONAL wall solved moment direction 123 actual=-5.1946699386462569E-08 expected=0
+PASS ADDITIONAL wall solved P at psi217 actual=-1.2390874326229095E-07 expected=0
+PASS ADDITIONAL wall solved moment direction 217 actual=-5.6461431086063385E-08 expected=0
+PASS ADDITIONAL wall solved P at psi0 actual=31406.677611048603 expected=31406.67761098839
+PASS ADDITIONAL wall solved moment direction 0 actual=1.2071907520294189E-08 expected=0
+PASS ADDITIONAL wall solved P at psi37 actual=31406.677611008214 expected=31406.67761098839
+PASS ADDITIONAL wall solved moment direction 37 actual=8.6281943367794156E-08 expected=0
+PASS ADDITIONAL wall solved P at psi123 actual=31406.677611005238 expected=31406.67761098839
+PASS ADDITIONAL wall solved moment direction 123 actual=-4.6202330850064754E-09 expected=0
+PASS ADDITIONAL wall solved P at psi217 actual=31406.677610920273 expected=31406.67761098839
+PASS ADDITIONAL wall solved moment direction 217 actual=-3.9284714148379862E-08 expected=0
+PASS ADDITIONAL wall solved P at psi0 actual=75376.026266355431 expected=75376.026266372137
+PASS ADDITIONAL wall solved moment direction 0 actual=-4.883354902267456E-08 expected=0
+PASS ADDITIONAL wall solved P at psi37 actual=75376.026266492263 expected=75376.026266372137
+PASS ADDITIONAL wall solved moment direction 37 actual=1.9994331523776054E-08 expected=0
+PASS ADDITIONAL wall solved P at psi123 actual=75376.026266372617 expected=75376.026266372137
+PASS ADDITIONAL wall solved moment direction 123 actual=-4.3775798985734582E-08 expected=0
+PASS ADDITIONAL wall solved P at psi217 actual=75376.026266372573 expected=75376.026266372137
+PASS ADDITIONAL wall solved moment direction 217 actual=-5.6817953009158373E-08 expected=0
+PASS ADDITIONAL offset_box independent-check grid exported: 72 finite/uniform states
+PASS ADDITIONAL offset_box solved P at psi0 actual=-2541.4399999883117 expected=-2541.4400000000001
+PASS ADDITIONAL offset_box solved moment direction 0 actual=-8.6250305175781256E-08 expected=0
+PASS ADDITIONAL offset_box solved P at psi37 actual=-2541.4400000037717 expected=-2541.4400000000001
+PASS ADDITIONAL offset_box solved moment direction 37 actual=-6.2167714531824458E-08 expected=0
+PASS ADDITIONAL offset_box solved P at psi123 actual=-2541.4400000263536 expected=-2541.4400000000001
+PASS ADDITIONAL offset_box solved moment direction 123 actual=-1.3894123185309581E-08 expected=0
+PASS ADDITIONAL offset_box solved P at psi217 actual=-2541.4400000021719 expected=-2541.4400000000001
+PASS ADDITIONAL offset_box solved moment direction 217 actual=2.7448209038993809E-08 expected=0
+PASS ADDITIONAL offset_box solved P at psi0 actual=2.7798581868410112E-08 expected=0
+PASS ADDITIONAL offset_box solved moment direction 0 actual=-5.3334236145019527E-10 expected=0
+PASS ADDITIONAL offset_box solved P at psi37 actual=2.6809517294168472E-08 expected=0
+PASS ADDITIONAL offset_box solved moment direction 37 actual=-8.0470726970816031E-08 expected=0
+PASS ADDITIONAL offset_box solved P at psi123 actual=1.3124197721481324E-08 expected=0
+PASS ADDITIONAL offset_box solved moment direction 123 actual=-2.0149855117779225E-09 expected=0
+PASS ADDITIONAL offset_box solved P at psi217 actual=-1.4932826161384582E-08 expected=0
+PASS ADDITIONAL offset_box solved moment direction 217 actual=-7.3967612479464151E-08 expected=0
+PASS ADDITIONAL offset_box solved P at psi0 actual=5843.4616000114393 expected=5843.4616000000051
+PASS ADDITIONAL offset_box solved moment direction 0 actual=-1.1205103248357773E-08 expected=0
+PASS ADDITIONAL offset_box solved P at psi37 actual=5843.4615999829693 expected=5843.4616000000051
+PASS ADDITIONAL offset_box solved moment direction 37 actual=2.2924268705537543E-08 expected=0
+PASS ADDITIONAL offset_box solved P at psi123 actual=5843.4616000089436 expected=5843.4616000000051
+PASS ADDITIONAL offset_box solved moment direction 123 actual=-4.9165237214765511E-08 expected=0
+PASS ADDITIONAL offset_box solved P at psi217 actual=5843.4616000252445 expected=5843.4616000000051
+PASS ADDITIONAL offset_box solved moment direction 217 actual=9.6389157988596708E-08 expected=0
+PASS ADDITIONAL offset_box solved P at psi0 actual=14024.307840000123 expected=14024.307840000012
+PASS ADDITIONAL offset_box solved moment direction 0 actual=4.0741384029388427E-08 expected=0
+PASS ADDITIONAL offset_box solved P at psi37 actual=14024.307840024956 expected=14024.307840000012
+PASS ADDITIONAL offset_box solved moment direction 37 actual=5.5372538554365747E-08 expected=0
+PASS ADDITIONAL offset_box solved P at psi123 actual=14024.307840022788 expected=14024.307840000012
+PASS ADDITIONAL offset_box solved moment direction 123 actual=-6.8172994360793382E-08 expected=0
+PASS ADDITIONAL offset_box solved P at psi217 actual=14024.307840003574 expected=14024.307840000012
+PASS ADDITIONAL offset_box solved moment direction 217 actual=1.2928467185702175E-09 expected=0
+PASS ADDITIONAL circle independent-check grid exported: 72 finite/uniform states
+PASS ADDITIONAL circle solved P at psi0 actual=-1355.817948334653 expected=-1355.8179483313293
+PASS ADDITIONAL circle solved moment direction 0 actual=-9.6986655145883557E-08 expected=0
+PASS ADDITIONAL circle solved P at psi37 actual=-1355.8179483291224 expected=-1355.8179483313293
+PASS ADDITIONAL circle solved moment direction 37 actual=-1.4298279893409926E-08 expected=0
+PASS ADDITIONAL circle solved P at psi123 actual=-1355.8179483238057 expected=-1355.8179483313293
+PASS ADDITIONAL circle solved moment direction 123 actual=-5.1327049277460901E-09 expected=0
+PASS ADDITIONAL circle solved P at psi217 actual=-1355.8179483291226 expected=-1355.8179483313293
+PASS ADDITIONAL circle solved moment direction 217 actual=-1.4298080941443914E-08 expected=0
+PASS ADDITIONAL circle solved P at psi0 actual=3.9199367165565487E-09 expected=0
+PASS ADDITIONAL circle solved moment direction 0 actual=-8.6612790822982785E-08 expected=0
+PASS ADDITIONAL circle solved P at psi37 actual=1.691281795501709E-09 expected=0
+PASS ADDITIONAL circle solved moment direction 37 actual=-1.212822553497972E-08 expected=0
+PASS ADDITIONAL circle solved P at psi123 actual=-9.7712036222219464E-09 expected=0
+PASS ADDITIONAL circle solved moment direction 123 actual=3.1600080774296657E-08 expected=0
+PASS ADDITIONAL circle solved P at psi217 actual=1.6919802874326707E-09 expected=0
+PASS ADDITIONAL circle solved moment direction 217 actual=-1.2128509752074024E-08 expected=0
+PASS ADDITIONAL circle solved P at psi0 actual=2114.6810838089882 expected=2114.6810838082833
+PASS ADDITIONAL circle solved moment direction 0 actual=-4.470348358154297E-14 expected=0
+PASS ADDITIONAL circle solved P at psi37 actual=2114.6810838089896 expected=2114.6810838082833
+PASS ADDITIONAL circle solved moment direction 37 actual=-5.2823452278971672E-08 expected=0
+PASS ADDITIONAL circle solved P at psi123 actual=2114.6810838089887 expected=2114.6810838082833
+PASS ADDITIONAL circle solved moment direction 123 actual=-4.2556962398521136E-08 expected=0
+PASS ADDITIONAL circle solved P at psi217 actual=2114.68108380899 expected=2114.6810838082833
+PASS ADDITIONAL circle solved moment direction 217 actual=-5.2823509122390533E-08 expected=0
+PASS ADDITIONAL circle solved P at psi0 actual=5075.2346011307391 expected=5075.2346011398795
+PASS ADDITIONAL circle solved moment direction 0 actual=-8.1956386566162107E-14 expected=0
+PASS ADDITIONAL circle solved P at psi37 actual=5075.234601143814 expected=5075.2346011398795
+PASS ADDITIONAL circle solved moment direction 37 actual=7.838622195777134E-09 expected=0
+PASS ADDITIONAL circle solved P at psi123 actual=5075.2346011307482 expected=5075.2346011398795
+PASS ADDITIONAL circle solved moment direction 123 actual=5.6878548093663994E-08 expected=0
+PASS ADDITIONAL circle solved P at psi217 actual=5075.234601143814 expected=5075.2346011398795
+PASS ADDITIONAL circle solved moment direction 217 actual=7.8387358826148557E-09 expected=0
+PASS ADDITIONAL polygon_ring independent-check grid exported: 72 finite/uniform states
+PASS ADDITIONAL polygon_ring solved P at psi0 actual=-2055.6800000076692 expected=-2055.6799999999998
+PASS ADDITIONAL polygon_ring solved moment direction 0 actual=-1.0430812835693359E-13 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi37 actual=-2055.6799999869249 expected=-2055.6799999999998
+PASS ADDITIONAL polygon_ring solved moment direction 37 actual=-1.4995293895481154E-09 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi123 actual=-2055.6800000131866 expected=-2055.6799999999998
+PASS ADDITIONAL polygon_ring solved moment direction 123 actual=1.2241230251675006E-09 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi217 actual=-2055.6799999869272 expected=-2055.6799999999998
+PASS ADDITIONAL polygon_ring solved moment direction 217 actual=-1.4992451724538114E-09 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi0 actual=6.068497896194458E-09 expected=0
+PASS ADDITIONAL polygon_ring solved moment direction 0 actual=-5.4763421416282651E-08 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi37 actual=-5.0365924835205081E-09 expected=0
+PASS ADDITIONAL polygon_ring solved moment direction 37 actual=-3.1357330954051577E-08 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi123 actual=5.4584816098213194E-09 expected=0
+PASS ADDITIONAL polygon_ring solved moment direction 123 actual=5.5162786338769365E-08 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi217 actual=-5.0407834351062771E-09 expected=0
+PASS ADDITIONAL polygon_ring solved moment direction 217 actual=-3.1356421459349804E-08 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi0 actual=4397.6804691536345 expected=4397.6804691506604
+PASS ADDITIONAL polygon_ring solved moment direction 0 actual=-5.130782723426819E-08 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi37 actual=4397.6804691696389 expected=4397.6804691506604
+PASS ADDITIONAL polygon_ring solved moment direction 37 actual=4.1492739910609089E-08 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi123 actual=4397.6804691517627 expected=4397.6804691506604
+PASS ADDITIONAL polygon_ring solved moment direction 123 actual=-4.8668653107597493E-08 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi217 actual=4397.6804691696361 expected=4397.6804691506604
+PASS ADDITIONAL polygon_ring solved moment direction 217 actual=4.1492739910609089E-08 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi0 actual=10554.433125945028 expected=10554.433125961585
+PASS ADDITIONAL polygon_ring solved moment direction 0 actual=-7.9790405929088591E-08 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi37 actual=10554.433125966329 expected=10554.433125961585
+PASS ADDITIONAL polygon_ring solved moment direction 37 actual=-6.2944309320300817E-08 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi123 actual=10554.433125955347 expected=10554.433125961585
+PASS ADDITIONAL polygon_ring solved moment direction 123 actual=7.0365331339417025E-09 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi217 actual=10554.43312596634 expected=10554.433125961585
+PASS ADDITIONAL polygon_ring solved moment direction 217 actual=-6.2944991441327147E-08 expected=0
+PASS ADDITIONAL asym_rectangle independent-check grid exported: 72 finite/uniform states
+PASS ADDITIONAL asym_rectangle solved P at psi0 actual=-1114.739999990052 expected=-1114.74
+PASS ADDITIONAL asym_rectangle solved moment direction 0 actual=3.8199245929718019E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi37 actual=-1114.7399999994846 expected=-1114.74
+PASS ADDITIONAL asym_rectangle solved moment direction 37 actual=-2.257303322039661E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi123 actual=-1114.7399999987745 expected=-1114.74
+PASS ADDITIONAL asym_rectangle solved moment direction 123 actual=-2.4601604309282266E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi217 actual=-1114.7400000117445 expected=-1114.74
+PASS ADDITIONAL asym_rectangle solved moment direction 217 actual=-7.179025374171033E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi0 actual=-4.4587068259716035E-10 expected=0
+PASS ADDITIONAL asym_rectangle solved moment direction 0 actual=-3.5208553075790405E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi37 actual=3.0670780688524246E-09 expected=0
+PASS ADDITIONAL asym_rectangle solved moment direction 37 actual=-7.7637594131374499E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi123 actual=2.6866327971220016E-09 expected=0
+PASS ADDITIONAL asym_rectangle solved moment direction 123 actual=8.2379301602486521E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi217 actual=-5.7243742048740384E-09 expected=0
+PASS ADDITIONAL asym_rectangle solved moment direction 217 actual=7.2979219112312421E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi0 actual=3581.8376624971656 expected=3581.8376624999992
+PASS ADDITIONAL asym_rectangle solved moment direction 0 actual=2.4891817010939123E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi37 actual=3581.837662488645 expected=3581.8376624999992
+PASS ADDITIONAL asym_rectangle solved moment direction 37 actual=3.1710214898339473E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi123 actual=3581.8376625138526 expected=3581.8376624999992
+PASS ADDITIONAL asym_rectangle solved moment direction 123 actual=-2.9954662750242278E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi217 actual=3581.8376624849398 expected=3581.8376624999992
+PASS ADDITIONAL asym_rectangle solved moment direction 217 actual=6.8901499616913497E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi0 actual=8596.4103899874244 expected=8596.4103899999973
+PASS ADDITIONAL asym_rectangle solved moment direction 0 actual=9.9108129739761354E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi37 actual=8596.4103900116934 expected=8596.4103899999973
+PASS ADDITIONAL asym_rectangle solved moment direction 37 actual=3.496438694128301E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi123 actual=8596.4103899850525 expected=8596.4103899999973
+PASS ADDITIONAL asym_rectangle solved moment direction 123 actual=1.3328929071576567E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi217 actual=8596.4103899878919 expected=8596.4103899999973
+PASS ADDITIONAL asym_rectangle solved moment direction 217 actual=-3.8485040931846015E-08 expected=0
+PASS ADDITIONAL total: 247
+Independent states: 544
+PASS ANNOTATION nonzero uniform moment is preserved
+PASS ANNOTATION opposite-direction uniform endpoint is omitted
+PASS ANNOTATION total: 2
+PASS GUIDED rectangle corners counted once: 4+4+2+2=12
+PASS GUIDED D25 nominal areas retained actual=6080.4 expected=6080.4
+PASS GUIDED clear cover plus D10 tie plus half D25 gives 60 mm center offset actual=60 expected=60
+PASS GUIDED height/cover converted to bar location actual=340 expected=340
+PASS GUIDED legacy rectangle reproduced without manual coordinates
+PASS GUIDED legacy geometry/areas inferred exactly RC 교각 검토
+PASS GUIDED inference does not mutate RC 교각 검토
+PASS GUIDED legacy geometry/areas inferred exactly 원형 교각
+PASS GUIDED inference does not mutate 원형 교각
+PASS GUIDED legacy geometry/areas inferred exactly 중공 원형 교각
+PASS GUIDED inference does not mutate 중공 원형 교각
+PASS GUIDED legacy geometry/areas inferred exactly 도로설계편람 2008 · 원형 교각 검산
+PASS GUIDED inference does not mutate 도로설계편람 2008 · 원형 교각 검산
+PASS GUIDED legacy geometry/areas inferred exactly 공개 검증예제 · ACI 318-19 / Grade 60
+PASS GUIDED inference does not mutate 공개 검증예제 · ACI 318-19 / Grade 60
+PASS GUIDED legacy geometry/areas inferred exactly 공개 검증 · 원형 8-#10 / ACI 318-19
+PASS GUIDED inference does not mutate 공개 검증 · 원형 8-#10 / ACI 318-19
+PASS GUIDED legacy geometry/areas inferred exactly 공개 검증 · 16×20 in 이축 RC
+PASS GUIDED inference does not mutate 공개 검증 · 16×20 in 이축 RC
+PASS GUIDED irregular wall stays custom rather than becoming rectangle
+PASS GUIDED asymmetric reinforcement is not overwritten by a symmetric recipe
+PASS GUIDED two concentric rings retain their separate counts
+PASS GUIDED two ring center spacing retained actual=100 expected=100
+PASS GUIDED box concrete opening deducted actual=765000 expected=765000
+PASS GUIDED box perimeter count
+PASS GUIDED hollow circular two ring count
+PASS GUIDED outer circular radius from clear cover actual=420 expected=420
+PASS GUIDED second circular radius from ring spacing actual=360 expected=360
+PASS GUIDED stadium perimeter generates unique reinforcement
+PASS GUIDED stadium polygon area within 0.02 percent of ideal capsule actual=2185082.78923869 expected=2185398.16339745
+PASS GUIDED invalid cover/opening/shape/count rejected Rectangle
+PASS GUIDED invalid cover/opening/shape/count rejected HollowCircle
+PASS GUIDED invalid cover/opening/shape/count rejected Stadium
+PASS GUIDED invalid cover/opening/shape/count rejected Rectangle
+PASS GUIDED saved project retains dimensions and reinforcement recipe
+PASS GUIDED input terminology changed
+PASS GUIDED coordinate grids hidden from primary workflow
+PASS GUIDED unchanged primary inputs remain intact
+PASS GUIDED dimension edits invalidate results and participate in unsaved-change tracking
+PASS GUIDED calculate/save commits draft dimensions actual=450 expected=450
+PASS GUIDED guided apply preserves materials and load combinations
+PASS GUIDED applied recipe persisted
+PASS GUIDED custom coordinate edits retain data and discard stale recipe
+PASS GUIDED invalid preview cannot enter analysis
+PASS GUIDED apply button fits input pane 1
+PASS GUIDED apply button fits input pane 2
+PASS GUIDED total: 46

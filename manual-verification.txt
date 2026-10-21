@@ -1,0 +1,29 @@
+PASS MANUAL handbook PDF847 gross circle area actual=3141592.653589793 reference=3141592.6540000001
+PASS MANUAL handbook PDF847 steel area actual=48136.499999999942 reference=48136.5
+PASS MANUAL handbook PDF846 maximum reduced compression actual=43426.575098609581 reference=43426.574999999997
+PASS MANUAL independent closed-form cap actual=43426.575098609581 reference=43426.575098609785
+PASS MANUAL handbook printed reinforcement ratio actual=0.015322323836286041 reference=0.01532
+PASS MANUAL analytic circular compression area vs independent strips actual=979921.9123544154 reference=979921.91245526704
+PASS MANUAL analytic circular first moment vs independent strips actual=274947322.69641149 reference=274947322.76603037
+PASS MANUAL analytic circle translation P actual=34849.504087798057 reference=34849.50408779805
+PASS MANUAL analytic circle translation Mx actual=20114.94400924426 reference=20114.944009244278
+PASS MANUAL published axial coordinate equilibrium transverse LC1 actual=43426.574999996898 reference=43426.574999999997
+COMPARE transverse LC1 phiM_reference=7677.9679999999998 phiM_calculated=7676.2114773455442 relative=-0.00022877441719681979
+PASS MANUAL published axial coordinate equilibrium transverse LC2 actual=40774.899999992951 reference=40774.900000000001
+COMPARE transverse LC2 phiM_reference=9019.5799999999999 phiM_calculated=9048.8186078026629 relative=0.0032416817415736876
+PASS MANUAL published axial coordinate equilibrium transverse LC3 actual=20513.733999993925 reference=20513.734
+COMPARE transverse LC3 phiM_reference=14298.33 phiM_calculated=14298.951548689774 relative=4.3470019909674917E-05
+PASS MANUAL published axial coordinate equilibrium transverse LC4 actual=37260.495999949882 reference=37260.495999999999
+COMPARE transverse LC4 phiM_reference=10555.01 phiM_calculated=10586.95731631882 relative=0.003026744296672268
+PASS MANUAL published axial coordinate equilibrium longitudinal LC3 actual=10490.370999956998 reference=10490.370999999999
+COMPARE longitudinal LC3 phiM_reference=12651.690000000001 phiM_calculated=12702.059419612531 relative=0.0039812404202546059
+PASS MANUAL published axial coordinate equilibrium combined LC3 actual=10230.336000013755 reference=10230.335999999999
+COMPARE combined LC3 phiM_reference=12570.030000000001 phiM_calculated=12620.281590498582 relative=0.0039977303553437871
+PASS MANUAL published axial coordinate equilibrium combined LC4 actual=38890.250999992801 reference=38890.250999999997
+COMPARE combined LC4 phiM_reference=9979.8060000000005 phiM_calculated=9910.8361154528866 relative=-0.006910944415864817
+COMPARE balanced_e_reference=545.084 calculated=513.08732255098664 relative=-0.058700452497254196
+COMPARE max_abs_moment_difference=0.006910944415864817
+PASS MANUAL balanced eccentricity mismatch is retained, not hidden as passing reference
+PASS MANUAL weighted cover from actual two rings actual=147.36842105263159 reference=147.36799999999999
+PASS MANUAL engine balanced state uses actual extreme bar yield actual=-0.0015000000000000007 reference=-0.0015
+PASS MANUAL total: 19

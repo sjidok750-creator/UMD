@@ -1,0 +1,6 @@
+2026-10-16 (Friday), actual Windows v0.8 window via Computer Use.
+Observed shape/reinforcement tabs, full-width input fields, rectangle B/H drawing, Nx/Ny and c drawing.
+Changed Nx from 4 to 5: preview changed 12 -> 14 bars, As 6080.40 -> 7093.80 mm2.
+Pressed F5: calculated result and section drawing showed 14 bars / As 7093.80 mm2.
+Saved bounded actual app screenshots guided-shape-native.jpg and guided-rebar-native.jpg.
+File-dialog save/open routes were tested through application component methods, not every native dialog interaction.

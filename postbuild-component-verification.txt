@@ -1,0 +1,82 @@
+PASS UI form input contract
+PASS UI result grid populated
+PASS UI form project save roundtrip
+PASS UI unchanged save preserves results
+PASS UI input change invalidates all results
+PASS UI input change clears stale section view
+PASS UI open restores data and requires calculation
+PASS UI coordinate and material row order protected
+PASS UI selected bar uses catalog D25 area
+PASS UI unselected custom area preserved
+PASS UI total: 10
+PASS LAYOUT window dimensions fixed without maximize
+PASS LAYOUT 1120 by 910 DIP client target
+PASS LAYOUT input pane 300 DIP
+PASS LAYOUT duplicate bottom table hidden in report view
+PASS LAYOUT toolbar items stay inside toolbar
+PASS LAYOUT toolbar items do not overlap 1
+PASS LAYOUT toolbar items do not overlap 2
+PASS LAYOUT toolbar items do not overlap 3
+PASS LAYOUT toolbar items do not overlap 4
+PASS LAYOUT toolbar items do not overlap 5
+PASS LAYOUT tab headers do not overlap
+PASS LAYOUT tab headers do not overlap
+PASS LAYOUT table and graph do not overlap
+PASS LAYOUT detail graph retains readable viewport
+PASS LAYOUT two-line headers have measured height
+PASS LAYOUT row heights fit Gothic text
+PASS LAYOUT summary columns retain minimum readable widths
+PASS LAYOUT case selector changes detailed curve
+PASS LAYOUT detailed diagram renders at 96 DPI
+PASS LAYOUT detailed diagram renders at 120 DPI
+PASS LAYOUT detailed diagram renders at 144 DPI
+PASS LAYOUT detailed diagram renders at 192 DPI
+PASS LAYOUT manual discrepancy visible in native table
+PASS LAYOUT total: 23
+PASS GUIDED rectangle corners counted once: 4+4+2+2=12
+PASS GUIDED D25 nominal areas retained actual=6080.4 expected=6080.4
+PASS GUIDED clear cover plus D10 tie plus half D25 gives 60 mm center offset actual=60 expected=60
+PASS GUIDED height/cover converted to bar location actual=340 expected=340
+PASS GUIDED legacy rectangle reproduced without manual coordinates
+PASS GUIDED legacy geometry/areas inferred exactly RC 교각 검토
+PASS GUIDED inference does not mutate RC 교각 검토
+PASS GUIDED legacy geometry/areas inferred exactly 원형 교각
+PASS GUIDED inference does not mutate 원형 교각
+PASS GUIDED legacy geometry/areas inferred exactly 중공 원형 교각
+PASS GUIDED inference does not mutate 중공 원형 교각
+PASS GUIDED legacy geometry/areas inferred exactly 도로설계편람 2008 · 원형 교각 검산
+PASS GUIDED inference does not mutate 도로설계편람 2008 · 원형 교각 검산
+PASS GUIDED legacy geometry/areas inferred exactly 공개 검증예제 · ACI 318-19 / Grade 60
+PASS GUIDED inference does not mutate 공개 검증예제 · ACI 318-19 / Grade 60
+PASS GUIDED legacy geometry/areas inferred exactly 공개 검증 · 원형 8-#10 / ACI 318-19
+PASS GUIDED inference does not mutate 공개 검증 · 원형 8-#10 / ACI 318-19
+PASS GUIDED legacy geometry/areas inferred exactly 공개 검증 · 16×20 in 이축 RC
+PASS GUIDED inference does not mutate 공개 검증 · 16×20 in 이축 RC
+PASS GUIDED irregular wall stays custom rather than becoming rectangle
+PASS GUIDED asymmetric reinforcement is not overwritten by a symmetric recipe
+PASS GUIDED two concentric rings retain their separate counts
+PASS GUIDED two ring center spacing retained actual=100 expected=100
+PASS GUIDED box concrete opening deducted actual=765000 expected=765000
+PASS GUIDED box perimeter count
+PASS GUIDED hollow circular two ring count
+PASS GUIDED outer circular radius from clear cover actual=420 expected=420
+PASS GUIDED second circular radius from ring spacing actual=360 expected=360
+PASS GUIDED stadium perimeter generates unique reinforcement
+PASS GUIDED stadium polygon area within 0.02 percent of ideal capsule actual=2185082.78923869 expected=2185398.16339745
+PASS GUIDED invalid cover/opening/shape/count rejected Rectangle
+PASS GUIDED invalid cover/opening/shape/count rejected HollowCircle
+PASS GUIDED invalid cover/opening/shape/count rejected Stadium
+PASS GUIDED invalid cover/opening/shape/count rejected Rectangle
+PASS GUIDED saved project retains dimensions and reinforcement recipe
+PASS GUIDED input terminology changed
+PASS GUIDED coordinate grids hidden from primary workflow
+PASS GUIDED unchanged primary inputs remain intact
+PASS GUIDED dimension edits invalidate results and participate in unsaved-change tracking
+PASS GUIDED calculate/save commits draft dimensions actual=450 expected=450
+PASS GUIDED guided apply preserves materials and load combinations
+PASS GUIDED applied recipe persisted
+PASS GUIDED custom coordinate edits retain data and discard stale recipe
+PASS GUIDED invalid preview cannot enter analysis
+PASS GUIDED apply button fits input pane 1
+PASS GUIDED apply button fits input pane 2
+PASS GUIDED total: 46

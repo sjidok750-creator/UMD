@@ -1,0 +1,24 @@
+PASS LAYOUT window dimensions fixed without maximize
+PASS LAYOUT 1120 by 880 DIP client target
+PASS LAYOUT input pane 300 DIP
+PASS LAYOUT duplicate bottom table hidden in report view
+PASS LAYOUT toolbar items stay inside toolbar
+PASS LAYOUT toolbar items do not overlap 1
+PASS LAYOUT toolbar items do not overlap 2
+PASS LAYOUT toolbar items do not overlap 3
+PASS LAYOUT toolbar items do not overlap 4
+PASS LAYOUT toolbar items do not overlap 5
+PASS LAYOUT tab headers do not overlap
+PASS LAYOUT tab headers do not overlap
+PASS LAYOUT table and graph do not overlap
+PASS LAYOUT detail graph retains readable viewport
+PASS LAYOUT two-line headers have measured height
+PASS LAYOUT row heights fit Gothic text
+PASS LAYOUT summary columns retain minimum readable widths
+PASS LAYOUT case selector changes detailed curve
+PASS LAYOUT detailed diagram renders at 96 DPI
+PASS LAYOUT detailed diagram renders at 120 DPI
+PASS LAYOUT detailed diagram renders at 144 DPI
+PASS LAYOUT detailed diagram renders at 192 DPI
+PASS LAYOUT manual discrepancy visible in native table
+PASS LAYOUT total: 23

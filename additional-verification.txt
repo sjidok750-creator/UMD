@@ -1,0 +1,248 @@
+PASS ADDITIONAL E702 uniform compression closed form actual=668.45599999996489 expected=668.45600000000002
+PASS ADDITIONAL E702 printed compression cap actual=347.59711999998177 expected=347.60000000000002
+PASS ADDITIONAL E702 Z0.9 force couple gives 2.765 (source prints 2.82) actual=2.7649999999998456 expected=2.765000000000001
+PASS ADDITIONAL source printed Z0.9 equation evaluates to 2.765 actual=2.7649999999999864 expected=2.7650000000000001
+PASS ADDITIONAL E702 Z-5 rounded force replay actual=-43.72999999999999 expected=-43.729999999999997
+PASS ADDITIONAL E702 Z-5 rounded moment-arm replay actual=52.379566666666669 expected=52.380000000000003
+PASS ADDITIONAL wall original concrete area actual=7575.9999999999991 expected=7576
+PASS ADDITIONAL wall original hand-table steel area actual=43.879999999999939 expected=43.880000000000003
+PASS ADDITIONAL negative_My control0 phiPn_kip within original integer rounding actual=15461.035020858804 expected=15461
+PASS ADDITIONAL negative_My control0 phiMn_kipft within original integer rounding actual=52236.950702225491 expected=52237
+PASS ADDITIONAL negative_My control0 actual extreme bar strain actual=0 expected=0
+PASS ADDITIONAL negative_My control0 orthogonal equilibrium actual=2.2561289370059968E-13 expected=0
+PASS ADDITIONAL negative_My control1 phiPn_kip within original integer rounding actual=12519.602270837895 expected=12520
+PASS ADDITIONAL negative_My control1 phiMn_kipft within original integer rounding actual=85349.183682236457 expected=85349
+PASS ADDITIONAL negative_My control1 actual extreme bar strain actual=-0.0010344827586206897 expected=-0.0010344827586206897
+PASS ADDITIONAL negative_My control1 orthogonal equilibrium actual=-3.7252902984619144E-14 expected=0
+PASS ADDITIONAL negative_My control2 phiPn_kip within original integer rounding actual=10657.909519468427 expected=10658
+PASS ADDITIONAL negative_My control2 phiMn_kipft within original integer rounding actual=97424.455267836704 expected=97424
+PASS ADDITIONAL negative_My control2 actual extreme bar strain actual=-0.0020689655172413802 expected=-0.0020689655172413794
+PASS ADDITIONAL negative_My control2 orthogonal equilibrium actual=-3.2037496566772462E-13 expected=0
+PASS ADDITIONAL negative_My control3 phiPn_kip within original integer rounding actual=11151.079953507589 expected=11151
+PASS ADDITIONAL negative_My control3 phiMn_kipft within original integer rounding actual=138233.69925653111 expected=138234
+PASS ADDITIONAL negative_My control3 actual extreme bar strain actual=-0.005000000000000001 expected=-0.0050000000000000001
+PASS ADDITIONAL negative_My control3 orthogonal equilibrium actual=-5.7369470596313478E-13 expected=0
+PASS ADDITIONAL positive_My control0 phiPn_kip within original integer rounding actual=11614.048909101748 expected=11614
+PASS ADDITIONAL positive_My control0 phiMn_kipft within original integer rounding actual=77723.023763366116 expected=77723
+PASS ADDITIONAL positive_My control0 actual extreme bar strain actual=0 expected=0
+PASS ADDITIONAL positive_My control0 orthogonal equilibrium actual=1.2814998626708985E-12 expected=0
+PASS ADDITIONAL positive_My control1 phiPn_kip within original integer rounding actual=8417.6754270960264 expected=8418
+PASS ADDITIONAL positive_My control1 phiMn_kipft within original integer rounding actual=95118.910549260429 expected=95119
+PASS ADDITIONAL positive_My control1 actual extreme bar strain actual=-0.0010344827586206897 expected=-0.0010344827586206897
+PASS ADDITIONAL positive_My control1 orthogonal equilibrium actual=9.4622373580932615E-13 expected=0
+PASS ADDITIONAL positive_My control2 phiPn_kip within original integer rounding actual=6299.7420522120601 expected=6300
+PASS ADDITIONAL positive_My control2 phiMn_kipft within original integer rounding actual=98452.493948374613 expected=98452
+PASS ADDITIONAL positive_My control2 actual extreme bar strain actual=-0.0020689655172413802 expected=-0.0020689655172413794
+PASS ADDITIONAL positive_My control2 orthogonal equilibrium actual=4.5448541641235351E-13 expected=0
+PASS ADDITIONAL positive_My control3 phiPn_kip within original integer rounding actual=5105.3673143170518 expected=5105
+PASS ADDITIONAL positive_My control3 phiMn_kipft within original integer rounding actual=116488.51972903195 expected=116489
+PASS ADDITIONAL positive_My control3 actual extreme bar strain actual=-0.005000000000000001 expected=-0.0050000000000000001
+PASS ADDITIONAL positive_My control3 orthogonal equilibrium actual=-1.7136335372924805E-13 expected=0
+PASS ADDITIONAL negative_My exact pure bending axial equilibrium actual=-1.2127310037612916E-07 expected=0
+PASS ADDITIONAL negative_My fixed moment direction and fixed normal agree actual=-41286.482987934221 expected=-41286.482987611023
+PASS ADDITIONAL positive_My exact pure bending axial equilibrium actual=1.7900019884109496E-08 expected=0
+PASS ADDITIONAL positive_My fixed moment direction and fixed normal agree actual=72914.861838416924 expected=72914.861838416924
+PASS ADDITIONAL uniform_compression phiPn_kip within original integer rounding actual=18357.305199999068 expected=18357
+PASS ADDITIONAL uniform_compression phiMn_kipft within original integer rounding actual=2605.1965045058669 expected=2605
+PASS ADDITIONAL uniform_tension phiPn_magnitude_kip within original integer rounding actual=2369.5199999998795 expected=2370
+PASS ADDITIONAL uniform_tension phiMn_kipft within original integer rounding actual=3823.8817951423493 expected=3824
+PASS ADDITIONAL asymmetric uniform end states retain nonzero centroid moments
+PASS ADDITIONAL e702 independent-check grid exported: 72 finite/uniform states
+PASS ADDITIONAL e702 solved P at psi0 actual=-421.69140912291749 expected=-421.69140912667325
+PASS ADDITIONAL e702 solved moment direction 0 actual=1.8626451492309569E-15 expected=0
+PASS ADDITIONAL e702 solved P at psi37 actual=-421.69140912617348 expected=-421.69140912667325
+PASS ADDITIONAL e702 solved moment direction 37 actual=-6.5326400289222875E-08 expected=0
+PASS ADDITIONAL e702 solved P at psi123 actual=-421.69140912987444 expected=-421.69140912667325
+PASS ADDITIONAL e702 solved moment direction 123 actual=3.6532298963720677E-08 expected=0
+PASS ADDITIONAL e702 solved P at psi217 actual=-421.69140912617291 expected=-421.69140912667325
+PASS ADDITIONAL e702 solved moment direction 217 actual=-6.5326439369073341E-08 expected=0
+PASS ADDITIONAL e702 solved P at psi0 actual=-1.2445962056517602E-09 expected=0
+PASS ADDITIONAL e702 solved moment direction 0 actual=-8.1490725278854369E-16 expected=0
+PASS ADDITIONAL e702 solved P at psi37 actual=-1.5432015061378479E-09 expected=0
+PASS ADDITIONAL e702 solved moment direction 37 actual=-6.5238666024924896E-08 expected=0
+PASS ADDITIONAL e702 solved P at psi123 actual=-3.5372795537114143E-10 expected=0
+PASS ADDITIONAL e702 solved moment direction 123 actual=3.2133691263425135E-08 expected=0
+PASS ADDITIONAL e702 solved P at psi217 actual=-1.5432015061378479E-09 expected=0
+PASS ADDITIONAL e702 solved moment direction 217 actual=-6.5238666024924896E-08 expected=0
+PASS ADDITIONAL e702 solved P at psi0 actual=743.36010701200246 expected=743.36010701260409
+PASS ADDITIONAL e702 solved moment direction 0 actual=7.4505805969238278E-15 expected=0
+PASS ADDITIONAL e702 solved P at psi37 actual=743.36010701176906 expected=743.36010701260409
+PASS ADDITIONAL e702 solved moment direction 37 actual=5.9542138330925809E-08 expected=0
+PASS ADDITIONAL e702 solved P at psi123 actual=743.36010701253076 expected=743.36010701260409
+PASS ADDITIONAL e702 solved moment direction 123 actual=-9.1433442150901101E-08 expected=0
+PASS ADDITIONAL e702 solved P at psi217 actual=743.36010701176917 expected=743.36010701260409
+PASS ADDITIONAL e702 solved moment direction 217 actual=5.9542294650327676E-08 expected=0
+PASS ADDITIONAL e702 solved P at psi0 actual=1784.064256832047 expected=1784.0642568302499
+PASS ADDITIONAL e702 solved moment direction 0 actual=0 expected=0
+PASS ADDITIONAL e702 solved P at psi37 actual=1784.0642568318026 expected=1784.0642568302499
+PASS ADDITIONAL e702 solved moment direction 37 actual=-3.3833337909072725E-08 expected=0
+PASS ADDITIONAL e702 solved P at psi123 actual=1784.0642568299334 expected=1784.0642568302499
+PASS ADDITIONAL e702 solved moment direction 123 actual=-4.4926359521468839E-08 expected=0
+PASS ADDITIONAL e702 solved P at psi217 actual=1784.064256831803 expected=1784.0642568302499
+PASS ADDITIONAL e702 solved moment direction 217 actual=-3.3833195800525573E-08 expected=0
+PASS ADDITIONAL wall independent-check grid exported: 72 finite/uniform states
+PASS ADDITIONAL wall solved P at psi0 actual=-5855.6389342404327 expected=-5855.6389343286237
+PASS ADDITIONAL wall solved moment direction 0 actual=6.7414820194244382E-08 expected=0
+PASS ADDITIONAL wall solved P at psi37 actual=-5855.6389343201517 expected=-5855.6389343286237
+PASS ADDITIONAL wall solved moment direction 37 actual=8.0044628703035414E-09 expected=0
+PASS ADDITIONAL wall solved P at psi123 actual=-5855.6389344196223 expected=-5855.6389343286237
+PASS ADDITIONAL wall solved moment direction 123 actual=6.7292603489477187E-08 expected=0
+PASS ADDITIONAL wall solved P at psi217 actual=-5855.6389343625833 expected=-5855.6389343286237
+PASS ADDITIONAL wall solved moment direction 217 actual=-7.0082933234516531E-08 expected=0
+PASS ADDITIONAL wall solved P at psi0 actual=3.5285018384456635E-08 expected=0
+PASS ADDITIONAL wall solved moment direction 0 actual=-9.946799278259277E-08 expected=0
+PASS ADDITIONAL wall solved P at psi37 actual=2.9416754841804503E-08 expected=0
+PASS ADDITIONAL wall solved moment direction 37 actual=-2.5120243662968278E-09 expected=0
+PASS ADDITIONAL wall solved P at psi123 actual=4.9992464482784273E-08 expected=0
+PASS ADDITIONAL wall solved moment direction 123 actual=-5.1946699386462569E-08 expected=0
+PASS ADDITIONAL wall solved P at psi217 actual=-1.2390874326229095E-07 expected=0
+PASS ADDITIONAL wall solved moment direction 217 actual=-5.6461431086063385E-08 expected=0
+PASS ADDITIONAL wall solved P at psi0 actual=31406.677611048603 expected=31406.67761098839
+PASS ADDITIONAL wall solved moment direction 0 actual=1.2071907520294189E-08 expected=0
+PASS ADDITIONAL wall solved P at psi37 actual=31406.677611008214 expected=31406.67761098839
+PASS ADDITIONAL wall solved moment direction 37 actual=8.6281943367794156E-08 expected=0
+PASS ADDITIONAL wall solved P at psi123 actual=31406.677611005238 expected=31406.67761098839
+PASS ADDITIONAL wall solved moment direction 123 actual=-4.6202330850064754E-09 expected=0
+PASS ADDITIONAL wall solved P at psi217 actual=31406.677610920273 expected=31406.67761098839
+PASS ADDITIONAL wall solved moment direction 217 actual=-3.9284714148379862E-08 expected=0
+PASS ADDITIONAL wall solved P at psi0 actual=75376.026266355431 expected=75376.026266372137
+PASS ADDITIONAL wall solved moment direction 0 actual=-4.883354902267456E-08 expected=0
+PASS ADDITIONAL wall solved P at psi37 actual=75376.026266492263 expected=75376.026266372137
+PASS ADDITIONAL wall solved moment direction 37 actual=1.9994331523776054E-08 expected=0
+PASS ADDITIONAL wall solved P at psi123 actual=75376.026266372617 expected=75376.026266372137
+PASS ADDITIONAL wall solved moment direction 123 actual=-4.3775798985734582E-08 expected=0
+PASS ADDITIONAL wall solved P at psi217 actual=75376.026266372573 expected=75376.026266372137
+PASS ADDITIONAL wall solved moment direction 217 actual=-5.6817953009158373E-08 expected=0
+PASS ADDITIONAL offset_box independent-check grid exported: 72 finite/uniform states
+PASS ADDITIONAL offset_box solved P at psi0 actual=-2541.4399999883117 expected=-2541.4400000000001
+PASS ADDITIONAL offset_box solved moment direction 0 actual=-8.6250305175781256E-08 expected=0
+PASS ADDITIONAL offset_box solved P at psi37 actual=-2541.4400000037717 expected=-2541.4400000000001
+PASS ADDITIONAL offset_box solved moment direction 37 actual=-6.2167714531824458E-08 expected=0
+PASS ADDITIONAL offset_box solved P at psi123 actual=-2541.4400000263536 expected=-2541.4400000000001
+PASS ADDITIONAL offset_box solved moment direction 123 actual=-1.3894123185309581E-08 expected=0
+PASS ADDITIONAL offset_box solved P at psi217 actual=-2541.4400000021719 expected=-2541.4400000000001
+PASS ADDITIONAL offset_box solved moment direction 217 actual=2.7448209038993809E-08 expected=0
+PASS ADDITIONAL offset_box solved P at psi0 actual=2.7798581868410112E-08 expected=0
+PASS ADDITIONAL offset_box solved moment direction 0 actual=-5.3334236145019527E-10 expected=0
+PASS ADDITIONAL offset_box solved P at psi37 actual=2.6809517294168472E-08 expected=0
+PASS ADDITIONAL offset_box solved moment direction 37 actual=-8.0470726970816031E-08 expected=0
+PASS ADDITIONAL offset_box solved P at psi123 actual=1.3124197721481324E-08 expected=0
+PASS ADDITIONAL offset_box solved moment direction 123 actual=-2.0149855117779225E-09 expected=0
+PASS ADDITIONAL offset_box solved P at psi217 actual=-1.4932826161384582E-08 expected=0
+PASS ADDITIONAL offset_box solved moment direction 217 actual=-7.3967612479464151E-08 expected=0
+PASS ADDITIONAL offset_box solved P at psi0 actual=5843.4616000114393 expected=5843.4616000000051
+PASS ADDITIONAL offset_box solved moment direction 0 actual=-1.1205103248357773E-08 expected=0
+PASS ADDITIONAL offset_box solved P at psi37 actual=5843.4615999829693 expected=5843.4616000000051
+PASS ADDITIONAL offset_box solved moment direction 37 actual=2.2924268705537543E-08 expected=0
+PASS ADDITIONAL offset_box solved P at psi123 actual=5843.4616000089436 expected=5843.4616000000051
+PASS ADDITIONAL offset_box solved moment direction 123 actual=-4.9165237214765511E-08 expected=0
+PASS ADDITIONAL offset_box solved P at psi217 actual=5843.4616000252445 expected=5843.4616000000051
+PASS ADDITIONAL offset_box solved moment direction 217 actual=9.6389157988596708E-08 expected=0
+PASS ADDITIONAL offset_box solved P at psi0 actual=14024.307840000123 expected=14024.307840000012
+PASS ADDITIONAL offset_box solved moment direction 0 actual=4.0741384029388427E-08 expected=0
+PASS ADDITIONAL offset_box solved P at psi37 actual=14024.307840024956 expected=14024.307840000012
+PASS ADDITIONAL offset_box solved moment direction 37 actual=5.5372538554365747E-08 expected=0
+PASS ADDITIONAL offset_box solved P at psi123 actual=14024.307840022788 expected=14024.307840000012
+PASS ADDITIONAL offset_box solved moment direction 123 actual=-6.8172994360793382E-08 expected=0
+PASS ADDITIONAL offset_box solved P at psi217 actual=14024.307840003574 expected=14024.307840000012
+PASS ADDITIONAL offset_box solved moment direction 217 actual=1.2928467185702175E-09 expected=0
+PASS ADDITIONAL circle independent-check grid exported: 72 finite/uniform states
+PASS ADDITIONAL circle solved P at psi0 actual=-1355.817948334653 expected=-1355.8179483313293
+PASS ADDITIONAL circle solved moment direction 0 actual=-9.6986655145883557E-08 expected=0
+PASS ADDITIONAL circle solved P at psi37 actual=-1355.8179483291224 expected=-1355.8179483313293
+PASS ADDITIONAL circle solved moment direction 37 actual=-1.4298279893409926E-08 expected=0
+PASS ADDITIONAL circle solved P at psi123 actual=-1355.8179483238057 expected=-1355.8179483313293
+PASS ADDITIONAL circle solved moment direction 123 actual=-5.1327049277460901E-09 expected=0
+PASS ADDITIONAL circle solved P at psi217 actual=-1355.8179483291226 expected=-1355.8179483313293
+PASS ADDITIONAL circle solved moment direction 217 actual=-1.4298080941443914E-08 expected=0
+PASS ADDITIONAL circle solved P at psi0 actual=3.9199367165565487E-09 expected=0
+PASS ADDITIONAL circle solved moment direction 0 actual=-8.6612790822982785E-08 expected=0
+PASS ADDITIONAL circle solved P at psi37 actual=1.691281795501709E-09 expected=0
+PASS ADDITIONAL circle solved moment direction 37 actual=-1.212822553497972E-08 expected=0
+PASS ADDITIONAL circle solved P at psi123 actual=-9.7712036222219464E-09 expected=0
+PASS ADDITIONAL circle solved moment direction 123 actual=3.1600080774296657E-08 expected=0
+PASS ADDITIONAL circle solved P at psi217 actual=1.6919802874326707E-09 expected=0
+PASS ADDITIONAL circle solved moment direction 217 actual=-1.2128509752074024E-08 expected=0
+PASS ADDITIONAL circle solved P at psi0 actual=2114.6810838089882 expected=2114.6810838082833
+PASS ADDITIONAL circle solved moment direction 0 actual=-4.470348358154297E-14 expected=0
+PASS ADDITIONAL circle solved P at psi37 actual=2114.6810838089896 expected=2114.6810838082833
+PASS ADDITIONAL circle solved moment direction 37 actual=-5.2823452278971672E-08 expected=0
+PASS ADDITIONAL circle solved P at psi123 actual=2114.6810838089887 expected=2114.6810838082833
+PASS ADDITIONAL circle solved moment direction 123 actual=-4.2556962398521136E-08 expected=0
+PASS ADDITIONAL circle solved P at psi217 actual=2114.68108380899 expected=2114.6810838082833
+PASS ADDITIONAL circle solved moment direction 217 actual=-5.2823509122390533E-08 expected=0
+PASS ADDITIONAL circle solved P at psi0 actual=5075.2346011307391 expected=5075.2346011398795
+PASS ADDITIONAL circle solved moment direction 0 actual=-8.1956386566162107E-14 expected=0
+PASS ADDITIONAL circle solved P at psi37 actual=5075.234601143814 expected=5075.2346011398795
+PASS ADDITIONAL circle solved moment direction 37 actual=7.838622195777134E-09 expected=0
+PASS ADDITIONAL circle solved P at psi123 actual=5075.2346011307482 expected=5075.2346011398795
+PASS ADDITIONAL circle solved moment direction 123 actual=5.6878548093663994E-08 expected=0
+PASS ADDITIONAL circle solved P at psi217 actual=5075.234601143814 expected=5075.2346011398795
+PASS ADDITIONAL circle solved moment direction 217 actual=7.8387358826148557E-09 expected=0
+PASS ADDITIONAL polygon_ring independent-check grid exported: 72 finite/uniform states
+PASS ADDITIONAL polygon_ring solved P at psi0 actual=-2055.6800000076692 expected=-2055.6799999999998
+PASS ADDITIONAL polygon_ring solved moment direction 0 actual=-1.0430812835693359E-13 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi37 actual=-2055.6799999869249 expected=-2055.6799999999998
+PASS ADDITIONAL polygon_ring solved moment direction 37 actual=-1.4995293895481154E-09 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi123 actual=-2055.6800000131866 expected=-2055.6799999999998
+PASS ADDITIONAL polygon_ring solved moment direction 123 actual=1.2241230251675006E-09 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi217 actual=-2055.6799999869272 expected=-2055.6799999999998
+PASS ADDITIONAL polygon_ring solved moment direction 217 actual=-1.4992451724538114E-09 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi0 actual=6.068497896194458E-09 expected=0
+PASS ADDITIONAL polygon_ring solved moment direction 0 actual=-5.4763421416282651E-08 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi37 actual=-5.0365924835205081E-09 expected=0
+PASS ADDITIONAL polygon_ring solved moment direction 37 actual=-3.1357330954051577E-08 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi123 actual=5.4584816098213194E-09 expected=0
+PASS ADDITIONAL polygon_ring solved moment direction 123 actual=5.5162786338769365E-08 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi217 actual=-5.0407834351062771E-09 expected=0
+PASS ADDITIONAL polygon_ring solved moment direction 217 actual=-3.1356421459349804E-08 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi0 actual=4397.6804691536345 expected=4397.6804691506604
+PASS ADDITIONAL polygon_ring solved moment direction 0 actual=-5.130782723426819E-08 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi37 actual=4397.6804691696389 expected=4397.6804691506604
+PASS ADDITIONAL polygon_ring solved moment direction 37 actual=4.1492739910609089E-08 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi123 actual=4397.6804691517627 expected=4397.6804691506604
+PASS ADDITIONAL polygon_ring solved moment direction 123 actual=-4.8668653107597493E-08 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi217 actual=4397.6804691696361 expected=4397.6804691506604
+PASS ADDITIONAL polygon_ring solved moment direction 217 actual=4.1492739910609089E-08 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi0 actual=10554.433125945028 expected=10554.433125961585
+PASS ADDITIONAL polygon_ring solved moment direction 0 actual=-7.9790405929088591E-08 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi37 actual=10554.433125966329 expected=10554.433125961585
+PASS ADDITIONAL polygon_ring solved moment direction 37 actual=-6.2944309320300817E-08 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi123 actual=10554.433125955347 expected=10554.433125961585
+PASS ADDITIONAL polygon_ring solved moment direction 123 actual=7.0365331339417025E-09 expected=0
+PASS ADDITIONAL polygon_ring solved P at psi217 actual=10554.43312596634 expected=10554.433125961585
+PASS ADDITIONAL polygon_ring solved moment direction 217 actual=-6.2944991441327147E-08 expected=0
+PASS ADDITIONAL asym_rectangle independent-check grid exported: 72 finite/uniform states
+PASS ADDITIONAL asym_rectangle solved P at psi0 actual=-1114.739999990052 expected=-1114.74
+PASS ADDITIONAL asym_rectangle solved moment direction 0 actual=3.8199245929718019E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi37 actual=-1114.7399999994846 expected=-1114.74
+PASS ADDITIONAL asym_rectangle solved moment direction 37 actual=-2.257303322039661E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi123 actual=-1114.7399999987745 expected=-1114.74
+PASS ADDITIONAL asym_rectangle solved moment direction 123 actual=-2.4601604309282266E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi217 actual=-1114.7400000117445 expected=-1114.74
+PASS ADDITIONAL asym_rectangle solved moment direction 217 actual=-7.179025374171033E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi0 actual=-4.4587068259716035E-10 expected=0
+PASS ADDITIONAL asym_rectangle solved moment direction 0 actual=-3.5208553075790405E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi37 actual=3.0670780688524246E-09 expected=0
+PASS ADDITIONAL asym_rectangle solved moment direction 37 actual=-7.7637594131374499E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi123 actual=2.6866327971220016E-09 expected=0
+PASS ADDITIONAL asym_rectangle solved moment direction 123 actual=8.2379301602486521E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi217 actual=-5.7243742048740384E-09 expected=0
+PASS ADDITIONAL asym_rectangle solved moment direction 217 actual=7.2979219112312421E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi0 actual=3581.8376624971656 expected=3581.8376624999992
+PASS ADDITIONAL asym_rectangle solved moment direction 0 actual=2.4891817010939123E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi37 actual=3581.837662488645 expected=3581.8376624999992
+PASS ADDITIONAL asym_rectangle solved moment direction 37 actual=3.1710214898339473E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi123 actual=3581.8376625138526 expected=3581.8376624999992
+PASS ADDITIONAL asym_rectangle solved moment direction 123 actual=-2.9954662750242278E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi217 actual=3581.8376624849398 expected=3581.8376624999992
+PASS ADDITIONAL asym_rectangle solved moment direction 217 actual=6.8901499616913497E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi0 actual=8596.4103899874244 expected=8596.4103899999973
+PASS ADDITIONAL asym_rectangle solved moment direction 0 actual=9.9108129739761354E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi37 actual=8596.4103900116934 expected=8596.4103899999973
+PASS ADDITIONAL asym_rectangle solved moment direction 37 actual=3.496438694128301E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi123 actual=8596.4103899850525 expected=8596.4103899999973
+PASS ADDITIONAL asym_rectangle solved moment direction 123 actual=1.3328929071576567E-08 expected=0
+PASS ADDITIONAL asym_rectangle solved P at psi217 actual=8596.4103899878919 expected=8596.4103899999973
+PASS ADDITIONAL asym_rectangle solved moment direction 217 actual=-3.8485040931846015E-08 expected=0
+PASS ADDITIONAL total: 247

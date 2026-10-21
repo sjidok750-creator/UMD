@@ -1,0 +1,23 @@
+PASS QUADRATURE circular_balanced P_kN error= 9.094947017729282e-13
+PASS QUADRATURE circular_balanced Mx_kNm error= 1.1368683772161603e-13
+PASS QUADRATURE circular_balanced My_kNm error= 1.8626451492309572e-14
+PASS QUADRATURE circular_balanced min_strain error= 0.0
+PASS QUADRATURE biaxial_fixed_state P_kN error= -1.1368683772161603e-12
+PASS QUADRATURE biaxial_fixed_state Mx_kNm error= -5.115907697472721e-13
+PASS QUADRATURE biaxial_fixed_state My_kNm error= 1.1368683772161603e-13
+PASS QUADRATURE biaxial_fixed_state min_strain error= 0.0
+PASS QUADRATURE biaxial_exact_target P_kN error= -1.1368683772161603e-12
+PASS QUADRATURE biaxial_exact_target Mx_kNm error= -5.684341886080802e-14
+PASS QUADRATURE biaxial_exact_target My_kNm error= 0.0
+PASS QUADRATURE biaxial_exact_target min_strain error= 4.336808689942018e-19
+PASS QUADRATURE manual_extreme_bar_balanced P_kN error= -9.458744898438454e-11
+PASS QUADRATURE manual_extreme_bar_balanced Mx_kNm error= 0.0
+PASS QUADRATURE manual_extreme_bar_balanced My_kNm error= 5.234032869338988e-13
+PASS QUADRATURE manual_extreme_bar_balanced min_strain error= 0.0
+PASS QUADRATURE manual_weighted_depth_diagnostic P_kN error= -1.4551915228366852e-11
+PASS QUADRATURE manual_weighted_depth_diagnostic Mx_kNm error= 7.275957614183426e-12
+PASS QUADRATURE manual_weighted_depth_diagnostic My_kNm error= 1.000240445137024e-12
+PASS QUADRATURE manual_weighted_depth_diagnostic min_strain error= 0.0
+PASS INDEPENDENT simultaneous root: theta= 133.91793905956516 depth= 317.6361971513206
+SOURCE_DIAGNOSTIC eb545.084 requires c= 1232.4828490059613 implied d= 1848.724273508942 actual min strain= -0.0016248108073854668 ; physical cb= 1266.6666666666665
+PASS QUADRATURE total: 22

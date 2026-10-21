@@ -1,0 +1,44 @@
+PASS INDEPENDENT Circular P0 phiP_kip actual=1426.1976583317 published=1426.2
+PASS INDEPENDENT Circular cap phiP_kip actual=1212.2680095819 published=1212.3
+PASS INDEPENDENT Circular control0 phiP_kip actual=984.4824868823 published=984.5
+PASS INDEPENDENT Circular control0 phiM_kipft actual=208.15911681904 published=208.16
+PASS INDEPENDENT circular requested extreme-bar strain 0
+PASS INDEPENDENT Circular control1 phiP_kip actual=642.20209100716 published=642.2
+PASS INDEPENDENT Circular control1 phiM_kipft actual=281.42876235214 published=281.43
+PASS INDEPENDENT circular requested extreme-bar strain 1
+PASS INDEPENDENT Circular control2 phiP_kip actual=389.19961115885 published=389.2
+PASS INDEPENDENT Circular control2 phiM_kipft actual=305.80009542359 published=305.8
+PASS INDEPENDENT circular requested extreme-bar strain 2
+PASS INDEPENDENT Circular control3 phiP_kip actual=26.552835936907 published=26.6
+PASS INDEPENDENT Circular control3 phiM_kipft actual=295.31389228758 published=295.31
+PASS INDEPENDENT circular requested extreme-bar strain 3
+PASS INDEPENDENT Circular B c_in actual=10.277244897959 published=10.28
+PASS INDEPENDENT Circular B Pn_kip actual=518.93281487846 published=519
+PASS INDEPENDENT Circular B Mn_kipft actual=407.73346056478 published=408
+PASS INDEPENDENT Circular pure bending phiM_kipft actual=288.09579690523 published=288.1
+PASS INDEPENDENT Circular pure tension phiP_kip actual=-548.63999999997 published=-548.6
+PASS INDEPENDENT spiral cap applied to graph
+PASS INDEPENDENT standalone professional chart 300 dpi dimensions
+PASS INDEPENDENT export is EMF+ dual vector format
+PASS INDEPENDENT vector EMF retains text and lines without embedding a raster screenshot
+PASS INDEPENDENT Biaxial c12.5 alpha43.9 P_kip actual=425.36912536365 published=425.37
+PASS INDEPENDENT Biaxial c12.5 alpha43.9 Mx_kipft actual=321.39243234044 published=321.28
+PASS INDEPENDENT Biaxial c12.5 alpha43.9 My_kipft actual=200.7652295535 published=200.64
+PASS INDEPENDENT biaxial exact target axial equilibrium
+PASS INDEPENDENT biaxial true moment direction (not neutral-axis angle)
+PASS INDEPENDENT neutral axis is solved independently of moment direction
+PASS INDEPENDENT standard rebar nominal area D10
+PASS INDEPENDENT standard rebar nominal area D13
+PASS INDEPENDENT standard rebar nominal area D16
+PASS INDEPENDENT standard rebar nominal area D19
+PASS INDEPENDENT standard rebar nominal area D22
+PASS INDEPENDENT standard rebar nominal area D25
+PASS INDEPENDENT standard rebar nominal area D29
+PASS INDEPENDENT standard rebar nominal area D32
+PASS INDEPENDENT standard rebar nominal area D35
+PASS INDEPENDENT standard rebar nominal area D38
+PASS INDEPENDENT standard-section generator bar count
+PASS INDEPENDENT standard-section D25 uses 12 x 506.7 (not pi*25^2/4)
+PASS INDEPENDENT handbook retains 95 x D25 nominal area
+PASS INDEPENDENT US example area remains independent of Korean catalog
+PASS INDEPENDENT total: 43

@@ -1,0 +1,3 @@
+rectangle median_ms=639.329 gc0=263
+hollow median_ms=1703.535 gc0=186
+Benchmark artifacts: %USERPROFILE%\AppData\Local\Temp\PMStudio-benchmark-de148008eba349bb90be24823e3b80f2

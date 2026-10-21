@@ -1,0 +1,2 @@
+rectangle numeric_fields= 77642 max_absolute_delta= [1.4551915228366852e-11, '.Curves[22][40].ConcreteArea']
+hollow numeric_fields= 77542 max_absolute_delta= [9.814256057143212e-08, '.PMyPaths[1][7].Mx']

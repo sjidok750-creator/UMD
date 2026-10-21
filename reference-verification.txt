@@ -1,0 +1,143 @@
+PASS REFERENCE Grade60 reduced pure compression (before cap) actual=997.100000 published=997.1
+PASS REFERENCE Grade60 axial cap actual=797.680000 published=797.7
+PASS REFERENCE Grade60 pure tension actual=432.000000 published=432
+PASS REFERENCE Grade60 control0 phiPn kip actual=622.310000 published=622.3
+PASS REFERENCE Grade60 control0 phiMn kip-ft actual=169.863417 published=169.86
+PASS REFERENCE Grade60 control0 requested steel strain actual=0.000000 published=0
+PASS REFERENCE Grade60 control1 phiPn kip actual=421.910000 published=421.9
+PASS REFERENCE Grade60 control1 phiMn kip-ft actual=220.050340 published=220.05
+PASS REFERENCE Grade60 control1 requested steel strain actual=-0.001034 published=-0.00103448275862069
+PASS REFERENCE Grade60 control2 phiPn kip actual=270.891406 published=270.9
+PASS REFERENCE Grade60 control2 phiMn kip-ft actual=250.774370 published=250.77
+PASS REFERENCE Grade60 control2 requested steel strain actual=-0.002069 published=-0.00206896551724138
+PASS REFERENCE Grade60 control3 phiPn kip actual=171.641538 published=171.6
+PASS REFERENCE Grade60 control3 phiMn kip-ft actual=286.750743 published=286.75
+PASS REFERENCE Grade60 control3 requested steel strain actual=-0.005069 published=-0.00506896551724138
+PASS REFERENCE Grade60 pure bending phiMn kip-ft actual=213.912320 published=213.91
+PASS REFERENCE Grade60 transition phi from independent linear relation actual=0.775000 published=0.775
+PASS REFERENCE Grade60 both capacity curves generated
+PASS REFERENCE Grade60 curve clipped at axial cap
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=-1921.631738 published=-1921.63173779243
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=0.000000 published=0
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=-598.820984 published=-598.82098390764
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=204.824566 published=204.824565641527
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=723.989770 published=723.989769954527
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=384.157712 published=384.157711857258
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=1296.270857 published=1296.27085663461
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=334.800462 published=334.80046178357
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=2160.647196 published=2160.64719580296
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=279.219040 published=279.219039529635
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=3116.010518 published=3116.01051804708
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=194.602345 published=194.602345309575
+PASS REFERENCE Grade60 reduced capacity solved at exact DEMAND P (not phi times nominal at demand P) actual=3000.000000 published=3000
+PASS REFERENCE Grade60 curve clipped at axial cap
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=-1921.631738 published=-1921.63173779243
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=0.000000 published=0
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=-598.820984 published=-598.82098390764
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=204.824566 published=204.824565641527
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=723.989770 published=723.989769954527
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=384.157712 published=384.157711857258
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=1239.329276 published=1239.32927559267
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=338.365975 published=338.365974995753
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=2160.647196 published=2160.64719580296
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=279.219040 published=279.219039529635
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=3116.010518 published=3116.01051804708
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=194.602345 published=194.602345309575
+PASS REFERENCE Grade60 reduced capacity solved at exact DEMAND P (not phi times nominal at demand P) actual=1200.000000 published=1200
+PASS REFERENCE Grade60 curve clipped at axial cap
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=-1921.631738 published=-1921.63173779243
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=0.000000 published=0
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=-598.820984 published=-598.820983918478
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=20.420759 published=20.4207592391655
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=213.437741 published=213.437741477948
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=27.399213 published=27.3992132790952
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=963.275878 published=963.275877560162
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=25.877913 published=25.877913114635
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=1187.934353 published=1187.93435293793
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=24.601355 published=24.6013554863869
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=2024.166721 published=2024.16672120068
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=22.717740 published=22.7177404965886
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=2615.582111 published=2615.5821111625
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=20.131293 published=20.1312933279059
+PASS REFERENCE Grade60 reduce both axial and moment coordinates P actual=3548.257418 published=3548.25741800102
+PASS REFERENCE Grade60 reduce both axial and moment coordinates Mx actual=11.928110 published=11.9281098814307
+PASS REFERENCE Grade60 reduced capacity solved at exact DEMAND P (not phi times nominal at demand P) actual=1000.000000 published=1000
+PASS REFERENCE Grade60 table matches blue C point actual=207.281693 published=207.281692660443
+PASS REFERENCE Grade60 table matches blue C point actual=340.795755 published=340.795755412275
+PASS REFERENCE Grade60 table matches blue C point actual=256.553243 published=256.553242978114
+PASS REFERENCE Grade60 UI table explicitly reference factor ratio
+MODEL Grade60 pure bending ExactDisk_phiMn=213.779018 vs CenterLumped_phiMn=213.912320
+PASS REFERENCE Grade80 reduced pure compression (before cap) actual=1101.100000 published=1101.1
+PASS REFERENCE Grade80 axial cap actual=880.880000 published=880.9
+PASS REFERENCE Grade80 pure tension actual=576.000000 published=576
+PASS REFERENCE Grade80 control0 phiPn kip actual=650.621111 published=650.6
+PASS REFERENCE Grade80 control0 phiMn kip-ft actual=182.839343 published=182.84
+PASS REFERENCE Grade80 control0 requested steel strain actual=0.000000 published=0
+PASS REFERENCE Grade80 control1 phiPn kip actual=377.012246 published=377
+PASS REFERENCE Grade80 control1 phiMn kip-ft actual=235.451031 published=235.45
+PASS REFERENCE Grade80 control1 requested steel strain actual=-0.001379 published=-0.00137931034482759
+PASS REFERENCE Grade80 control2 phiPn kip actual=175.427143 published=175.4
+PASS REFERENCE Grade80 control2 phiMn kip-ft actual=264.580653 published=264.58
+PASS REFERENCE Grade80 control2 requested steel strain actual=-0.002759 published=-0.00275862068965517
+PASS REFERENCE Grade80 control3 phiPn kip actual=66.958478 published=67
+PASS REFERENCE Grade80 control3 phiMn kip-ft actual=306.959620 published=306.96
+PASS REFERENCE Grade80 control3 requested steel strain actual=-0.005759 published=-0.00575862068965517
+PASS REFERENCE Grade80 pure bending phiMn kip-ft actual=278.959162 published=278.96
+PASS REFERENCE Grade80 transition phi from independent linear relation actual=0.775000 published=0.775
+PASS REFERENCE Grade80 both capacity curves generated
+PASS REFERENCE Grade80 curve clipped at axial cap
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=-2562.175650 published=-2562.17565038991
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=0.000000 published=0
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=-883.187451 published=-883.187451369335
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=254.732129 published=254.732129050261
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=459.134994 published=459.134993791887
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=401.422444 published=401.422443516079
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=1471.016463 published=1471.01646264889
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=328.410194 published=328.41019381043
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=2472.731644 published=2472.73164419391
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=277.689873 published=277.689872694858
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=3579.890529 published=3579.89052905507
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=179.485602 published=179.48560236154
+PASS REFERENCE Grade80 reduced capacity solved at exact DEMAND P (not phi times nominal at demand P) actual=3000.000000 published=3000
+PASS REFERENCE Grade80 curve clipped at axial cap
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=-2562.175650 published=-2562.17565038991
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=0.000000 published=0
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=-883.187451 published=-883.187451369335
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=254.732129 published=254.732129050261
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=459.134994 published=459.134993791887
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=401.422444 published=401.422443516079
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=1365.572759 published=1365.57275933133
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=333.022086 published=333.02208619688
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=2472.731644 published=2472.73164419391
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=277.689873 published=277.689872694858
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=3579.890529 published=3579.89052905507
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=179.485602 published=179.48560236154
+PASS REFERENCE Grade80 reduced capacity solved at exact DEMAND P (not phi times nominal at demand P) actual=1200.000000 published=1200
+PASS REFERENCE Grade80 curve clipped at axial cap
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=-2562.175650 published=-2562.17565038991
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=0.000000 published=0
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=-1282.403395 published=-1282.40339542911
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=19.955773 published=19.95577327456
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=-369.337477 published=-369.337476588491
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=28.516694 published=28.5166942570068
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=530.558592 published=530.558592220522
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=26.374806 published=26.3748057631241
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=917.437020 published=917.437020217981
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=24.924427 published=24.9244268505172
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=1892.791276 published=1892.79127593491
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=23.405968 published=23.4059680791704
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=2578.175348 published=2578.17534751034
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=21.007369 published=21.0073690957026
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=3052.672012 published=3052.67201245821
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=18.163546 published=18.1635459907259
+PASS REFERENCE Grade80 reduce both axial and moment coordinates P actual=3698.514695 published=3698.51469529638
+PASS REFERENCE Grade80 reduce both axial and moment coordinates Mx actual=12.017468 published=12.0174676354152
+PASS REFERENCE Grade80 reduced capacity solved at exact DEMAND P (not phi times nominal at demand P) actual=1000.000000 published=1000
+PASS REFERENCE Grade80 table matches blue C point actual=239.131993 published=239.131992644775
+PASS REFERENCE Grade80 table matches blue C point actual=340.221056 published=340.221055723292
+PASS REFERENCE Grade80 table matches blue C point actual=249.520974 published=249.520973971797
+PASS REFERENCE Grade80 UI table explicitly reference factor ratio
+MODEL Grade80 pure bending ExactDisk_phiMn=278.959162 vs CenterLumped_phiMn=278.959162
+PASS REFERENCE opposite bending capacities of asymmetric section are NOT mirrored
+PASS REFERENCE multiple design intersections cannot produce automatic OK
+PASS REFERENCE total: 140
