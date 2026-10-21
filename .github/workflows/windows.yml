@@ -14,6 +14,13 @@ jobs:
       - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
+      - name: Prepare desktop for UI layout tests
+        shell: powershell
+        run: |
+          Add-Type -AssemblyName System.Windows.Forms
+          Write-Host "Desktop before: $([System.Windows.Forms.SystemInformation]::VirtualScreen)"
+          Set-DisplayResolution -Width 1920 -Height 1080 -Force
+          Write-Host "Desktop after: $([System.Windows.Forms.SystemInformation]::VirtualScreen)"
       - name: Build and verify
         shell: powershell
         run: .\verify-all.ps1
